@@ -1,0 +1,169 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-hero-section-headline-to-global-growth-strategic-power-market-domination-and-subheadline-to-root-x-global-delivers-elite-marketing-business-expansion-solutions-replace-existing-cta-button-text-with-schedule-executive-consultation-and-start-your-growth-journey",
+      "featureTitle": "Update hero section headline to 'Global Growth. Strategic Power. Market Domination.' and subheadline to 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.' Replace existing CTA button text with 'Schedule Executive Consultation' and 'Start Your Growth Journey'",
+      "files": [
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-new-the-problem-slide-section-that-displays-4-business-pain-points-in-bold-luxury-format-no-consistent-leads-weak-online-presence-poor-branding-visibility-no-structured-sales-system-use-minimal-text-with-strong-visual-impact-gold-accent-markers-and-glassmorphism-card-styling",
+      "featureTitle": "Create new 'The Problem' slide section that displays 4 business pain points in bold luxury format: 'No consistent leads', 'Weak online presence', 'Poor branding visibility', 'No structured sales system'. Use minimal text with strong visual impact, gold accent markers, and glassmorphism card styling",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/ProblemSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-14"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-services-section-title-to-our-elite-solutions-and-replace-the-6-existing-service-cards-with-new-services-premium-website-development-high-converting-social-media-ads-cinematic-video-advertising-seo-brand-authority-building-business-development-strategy-sales-team-insurance-advisory-structuring-maintain-animated-gold-outline-cards-with-one-by-one-appearance-and-soft-gold-glow-effect",
+      "featureTitle": "Update services section title to 'Our Elite Solutions' and replace the 6 existing service cards with new services: 'Premium Website Development', 'High-Converting Social Media Ads', 'Cinematic Video Advertising', 'SEO & Brand Authority Building', 'Business Development Strategy', 'Sales Team & Insurance Advisory Structuring'. Maintain animated gold-outline cards with one-by-one appearance and soft gold glow effect",
+      "files": [
+        "frontend/src/components/ServicesSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-15"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-difference-section-headline-to-why-global-brands-trust-us-and-replace-existing-bullet-points-with-data-driven-growth-strategy-performance-focused-execution-premium-client-support-local-global-market-expertise-result-oriented-approach-maintain-spacious-and-powerful-layout",
+      "featureTitle": "Update 'The Difference' section headline to 'Why Global Brands Trust Us' and replace existing bullet points with: 'Data-Driven Growth Strategy', 'Performance-Focused Execution', 'Premium Client Support', 'Local & Global Market Expertise', 'Result-Oriented Approach'. Maintain spacious and powerful layout",
+      "files": [
+        "frontend/src/components/DifferenceSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-power-statement-section-typography-to-display-three-separate-lines-we-don-t-just-build-businesses-we-build-global-brands-add-subtle-animated-gold-light-streak-effect-that-moves-across-the-screen-horizontally",
+      "featureTitle": "Update power statement section typography to display three separate lines: 'We Don't Just Build Businesses.', 'We Build Global Brands.' Add subtle animated gold light streak effect that moves across the screen horizontally",
+      "files": [
+        "frontend/src/components/PowerStatement.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-17"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-contact-section-headline-to-let-s-build-your-global-success-story-and-change-cta-button-text-to-book-private-strategy-call-maintain-phone-number-7557831531-and-email-www-rootxglobal-gmail-com-in-luxury-gold-bordered-contact-box-with-glowing-effects",
+      "featureTitle": "Update contact section headline to 'Let's Build Your Global Success Story' and change CTA button text to 'Book Private Strategy Call'. Maintain phone number 7557831531 and email www.rootxglobal@gmail.com in luxury gold bordered contact box with glowing effects",
+      "files": [
+        "frontend/src/components/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-18"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-about-section-brand-positioning-statement-to-root-x-global-is-an-elite-global-growth-and-expansion-partner-delivering-premium-marketing-business-development-and-strategic-sales-solutions-adjust-tone-to-reflect-expanded-service-portfolio-beyond-logistics",
+      "featureTitle": "Update about section brand positioning statement to: 'ROOT X GLOBAL is an elite global growth and expansion partner delivering premium marketing, business development, and strategic sales solutions.' Adjust tone to reflect expanded service portfolio beyond logistics",
+      "files": [
+        "frontend/src/components/AboutSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-19"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-primary-matte-black-color-from-0a0a0a-to-0b0b0b-throughout-the-design-system-to-match-the-specified-color-code",
+      "featureTitle": "Update primary matte black color from #0A0A0A to #0B0B0B throughout the design system to match the specified color code",
+      "files": [
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-20"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-slide-style-section-transitions-where-each-major-section-appears-like-a-premium-presentation-slide-with-smooth-entrance-effects-ensuring-each-section-feels-like-a-distinct-slide-in-a-keynote-presentation",
+      "featureTitle": "Implement slide-style section transitions where each major section appears like a premium presentation slide with smooth entrance effects, ensuring each section feels like a distinct slide in a keynote presentation",
+      "files": [
+        "frontend/src/components/HeroSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-21"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

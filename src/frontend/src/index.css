@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0rem;
+        
+        /* Ultra-premium black & gold color system */
+        --luxury-black: #0B0B0B;
+        --gold: #D4AF37;
+        --gold-light: #F4E4B0;
+        --gold-dark: #B8941F;
+        --navy-dark: #0F1729;
+        
+        /* OKLCH color tokens */
+        --background: 0.04 0 0;
+        --foreground: 0.98 0 0;
+        --card: 0.08 0 0;
+        --card-foreground: 0.98 0 0;
+        --popover: 0.08 0 0;
+        --popover-foreground: 0.98 0 0;
+        --primary: 0.75 0.12 85;
+        --primary-foreground: 0.04 0 0;
+        --secondary: 0.12 0.02 240;
+        --secondary-foreground: 0.98 0 0;
+        --muted: 0.15 0 0;
+        --muted-foreground: 0.65 0 0;
+        --accent: 0.75 0.12 85;
+        --accent-foreground: 0.04 0 0;
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.98 0 0;
+        --border: 0.75 0.12 85 / 20%;
+        --input: 0.75 0.12 85 / 20%;
+        --ring: 0.75 0.12 85;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-luxury-black text-foreground;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Playfair Display', Georgia, serif;
+    }
+}
+
+@layer utilities {
+    /* Custom color utilities */
+    .bg-luxury-black {
+        background-color: #0B0B0B;
+    }
+    
+    .text-gold {
+        color: #D4AF37;
+    }
+    
+    .text-gold-light {
+        color: #F4E4B0;
+    }
+    
+    .border-gold {
+        border-color: #D4AF37;
+    }
+    
+    .bg-navy-dark {
+        background-color: #0F1729;
+    }
+    
+    /* Gold gradient text */
+    .text-gold-gradient {
+        background: linear-gradient(135deg, #F4E4B0 0%, #D4AF37 50%, #B8941F 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    .text-gold-gradient-bright {
+        background: linear-gradient(135deg, #FFE57F 0%, #D4AF37 50%, #F4E4B0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    /* Slide-style section containers */
+    .slide-container {
+        position: relative;
+        scroll-snap-align: start;
+    }
+    
+    .slide-section {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    /* Glassmorphism effects */
+    .glassmorphism-card {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(212, 175, 55, 0.2);
+        box-shadow: 0 8px 32px 0 rgba(212, 175, 55, 0.1);
+    }
+    
+    /* Service cards with gold outline */
+    .service-card {
+        background: rgba(11, 11, 11, 0.8);
+        backdrop-filter: blur(10px);
+        border: 2px solid rgba(212, 175, 55, 0.3);
+        transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .service-card::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: radial-gradient(circle at center, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+    
+    .service-card:hover {
+        border-color: rgba(212, 175, 55, 0.8);
+        box-shadow: 0 0 40px rgba(212, 175, 55, 0.4), 0 0 80px rgba(212, 175, 55, 0.2);
+        transform: translateY(-8px);
+    }
+    
+    .service-card:hover::before {
+        opacity: 1;
+    }
+    
+    /* Luxury contact box */
+    .luxury-contact-box {
+        background: rgba(15, 23, 41, 0.6);
+        backdrop-filter: blur(20px);
+        border: 2px solid rgba(212, 175, 55, 0.4);
+        box-shadow: 0 0 60px rgba(212, 175, 55, 0.2);
+        position: relative;
+    }
+    
+    .luxury-contact-box::before {
+        content: '';
+        position: absolute;
+        inset: -2px;
+        background: linear-gradient(45deg, transparent, rgba(212, 175, 55, 0.3), transparent);
+        border-radius: inherit;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+        z-index: -1;
+    }
+    
+    .luxury-contact-box:hover::before {
+        opacity: 1;
+    }
+    
+    /* Gold glow effect */
+    .gold-glow {
+        box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+    }
+    
+    /* Gold light streak animation */
+    .gold-light-streak {
+        position: absolute;
+        top: 50%;
+        left: -100%;
+        width: 200%;
+        height: 2px;
+        background: linear-gradient(
+            90deg,
+            transparent 0%,
+            transparent 40%,
+            rgba(212, 175, 55, 0.3) 45%,
+            rgba(212, 175, 55, 0.8) 50%,
+            rgba(212, 175, 55, 0.3) 55%,
+            transparent 60%,
+            transparent 100%
+        );
+        animation: light-streak 8s ease-in-out infinite;
+        filter: blur(1px);
+    }
+    
+    /* Luxury button styles */
+    .luxury-button-primary {
+        background: linear-gradient(135deg, #D4AF37 0%, #B8941F 100%);
+        color: #0B0B0B;
+        border: none;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 0 30px rgba(212, 175, 55, 0.4);
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .luxury-button-primary::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(135deg, #F4E4B0 0%, #D4AF37 100%);
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+    
+    .luxury-button-primary:hover::before {
+        opacity: 1;
+    }
+    
+    .luxury-button-primary:hover {
+        box-shadow: 0 0 50px rgba(212, 175, 55, 0.6), 0 0 100px rgba(212, 175, 55, 0.3);
+        transform: translateY(-2px);
+    }
+    
+    .luxury-button-primary > * {
+        position: relative;
+        z-index: 1;
+    }
+    
+    .luxury-button-secondary {
+        background: transparent;
+        color: #D4AF37;
+        border: 2px solid #D4AF37;
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+    }
+    
+    .luxury-button-secondary:hover {
+        background: rgba(212, 175, 55, 0.1);
+        box-shadow: 0 0 40px rgba(212, 175, 55, 0.4);
+        transform: translateY(-2px);
+    }
+}
+
+@layer components {
+    /* Premium animations */
+    @keyframes light-streak {
+        0% {
+            left: -100%;
+            opacity: 0;
+        }
+        10% {
+            opacity: 1;
+        }
+        50% {
+            left: 100%;
+            opacity: 1;
+        }
+        100% {
+            left: 100%;
+            opacity: 0;
+        }
+    }
+}

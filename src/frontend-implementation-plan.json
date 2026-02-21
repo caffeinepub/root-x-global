@@ -1,0 +1,178 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Restructure landing page with slide-style navigation and expanded services showcase",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "summary": "Update hero section headline, subheadline, and CTA button text to reflect global growth positioning",
+      "acceptanceCriteria": [
+        "Hero headline displays 'Global Growth. Strategic Power. Market Domination.'",
+        "Hero subheadline displays 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.'",
+        "First CTA button shows 'Schedule Executive Consultation'",
+        "Second CTA button shows 'Start Your Growth Journey'",
+        "Both buttons maintain luxury gold glow effects"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Update headline text to 'Global Growth. Strategic Power. Market Domination.', subheadline to 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.', first CTA button text to 'Schedule Executive Consultation', and second CTA button text to 'Start Your Growth Journey'. Maintain existing animation effects and styling. Add the generated world map image frontend/public/assets/generated/world-map-routes.dim_1920x1080.png to the rotating background images array featuring dark cinematic world map with animated golden connection routes showing international trade paths and transport graphics."
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Create new 'The Problem' slide section displaying 4 business pain points in bold luxury format",
+      "acceptanceCriteria": [
+        "New ProblemSection component created and inserted after HeroSection",
+        "Section displays exactly 4 pain points with provided text",
+        "Uses glassmorphism card styling with gold borders",
+        "Text is minimal and impactful with large typography",
+        "Pain points have visual markers (icons or gold bullets)",
+        "Section appears with smooth slide transition animation"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ProblemSection.tsx",
+          "operation": "create",
+          "description": "Create new ProblemSection component displaying 4 pain points: 'No consistent leads', 'Weak online presence', 'Poor branding visibility', 'No structured sales system'. Use glassmorphism card styling with gold borders, large impactful typography, gold accent markers (icons or bullets), and scroll-triggered fade-in animation using useScrollAnimation hook. Structure as a full-width slide section matching the luxury aesthetic."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and insert the new ProblemSection component after HeroSection and before ServicesSection in the landing page layout. Apply slide-style spacing and transition classes to each major section (HeroSection, ProblemSection, ServicesSection, DifferenceSection, PowerStatement, ContactSection, AboutSection) to create distinct slide boundaries. Ensure proper vertical spacing between sections and that scroll behavior feels like transitioning between presentation slides. Maintain mobile responsiveness."
+        }
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "summary": "Update services section title and replace all 6 service cards with new marketing and business development services",
+      "acceptanceCriteria": [
+        "Services section headline changed to 'Our Elite Solutions'",
+        "All 6 service cards updated with new titles exactly as specified",
+        "Cards maintain gold outline and hover glow animation",
+        "Cards appear sequentially with staggered animation delays",
+        "Icons updated to match new service categories appropriately",
+        "Layout remains responsive and maintains luxury aesthetic"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ServicesSection.tsx",
+          "operation": "modify",
+          "description": "Update section title to 'Our Elite Solutions'. Replace all 6 service cards with: 'Premium Website Development', 'High-Converting Social Media Ads', 'Cinematic Video Advertising', 'SEO & Brand Authority Building', 'Business Development Strategy', 'Sales Team & Insurance Advisory Structuring'. Update icons appropriately (e.g., Monitor for websites, Share2 for social ads, Video for video advertising, Search for SEO, TrendingUp for business development, Users for sales team). Maintain animated gold-outline cards, one-by-one appearance animation, staggered delays, and soft gold glow hover effects. Apply slide-style visual treatment with enhanced entrance animation to make this section feel like a distinct presentation slide."
+        }
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "summary": "Update 'The Difference' section headline and replace bullet points with new trust-building statements",
+      "acceptanceCriteria": [
+        "Section headline updated to 'Why Global Brands Trust Us'",
+        "All 5 bullet points replaced with exact text provided",
+        "Maintains existing gold check icons and animation effects",
+        "Layout remains spacious with strong visual hierarchy",
+        "Staggered entrance animations preserved"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/DifferenceSection.tsx",
+          "operation": "modify",
+          "description": "Update section headline to 'Why Global Brands Trust Us'. Replace all 5 bullet points with: 'Data-Driven Growth Strategy', 'Performance-Focused Execution', 'Premium Client Support', 'Local & Global Market Expertise', 'Result-Oriented Approach'. Maintain existing gold check icons in glowing circles, staggered animation delays, and spacious powerful layout. Apply slide-style visual treatment with enhanced entrance animation to make this section feel like a distinct presentation slide."
+        }
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "summary": "Update power statement typography to three separate lines and add animated gold light streak effect",
+      "acceptanceCriteria": [
+        "Power statement text updated to 'We Don't Just Build Businesses.' and 'We Build Global Brands.' as two separate lines",
+        "Animated gold light streak element added that moves horizontally across the section",
+        "Light streak animation is subtle and continuous",
+        "Text maintains large gold gradient typography",
+        "Full black cinematic background preserved"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/PowerStatement.tsx",
+          "operation": "modify",
+          "description": "Update text content to display three separate lines: 'We Don't Just Build Businesses.' and 'We Build Global Brands.' Add a subtle animated gold light streak element that moves horizontally across the screen using CSS keyframe animation. The light streak should be a gradient div element that continuously animates from left to right with a subtle glow effect. Maintain large gold gradient typography and full black cinematic background. Enhance existing cinematic section with slide-style entrance effect to ensure it feels like a standalone presentation slide."
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Add CSS keyframe animation for the gold light streak effect that moves horizontally across the screen. The animation should be subtle, continuous, and use gold gradient colors matching the luxury aesthetic. Add CSS classes for slide-style section treatments including slide-in animations, section boundary spacing, and smooth transition effects. Create utility classes for slide entrance effects that can be applied to major sections to achieve a premium keynote presentation feel. Ensure animations work responsively on mobile devices. Replace all instances of #0A0A0A with #0B0B0B in CSS variables and custom styles to update the primary matte black color throughout the design system."
+        }
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "summary": "Update contact section headline, CTA button text, and maintain phone/email display with luxury styling",
+      "acceptanceCriteria": [
+        "Contact section headline updated to 'Let's Build Your Global Success Story'",
+        "CTA button text changed to 'Book Private Strategy Call'",
+        "Phone number 7557831531 displayed correctly with clickable tel: link",
+        "Email www.rootxglobal@gmail.com displayed with clickable mailto: link",
+        "Gold bordered contact box and glowing effects maintained"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Update section headline to 'Let's Build Your Global Success Story' and CTA button text to 'Book Private Strategy Call'. Ensure phone number 7557831531 has clickable tel: link and email www.rootxglobal@gmail.com has clickable mailto: link. Maintain luxury gold-bordered contact boxes with glowing effects and existing styling. Apply slide-style visual treatment with enhanced entrance animation to make this final section feel like a closing presentation slide."
+        }
+      ]
+    },
+    {
+      "id": "REQ-19",
+      "summary": "Update about section brand positioning statement to reflect expanded service portfolio",
+      "acceptanceCriteria": [
+        "About section text updated to reflect marketing and business development focus",
+        "Statement mentions premium marketing, business development, and strategic sales solutions",
+        "Maintains authoritative and exclusive tone",
+        "Glassmorphism card styling and fade-in animation preserved"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/AboutSection.tsx",
+          "operation": "modify",
+          "description": "Update brand positioning statement to: 'ROOT X GLOBAL is an elite global growth and expansion partner delivering premium marketing, business development, and strategic sales solutions.' Adjust tone to reflect expanded service portfolio beyond logistics while maintaining authoritative and exclusive positioning. Preserve glassmorphism card styling and scroll-triggered fade-in animation. Apply slide-style visual treatment with enhanced entrance animation to integrate this section into the overall slide-based presentation flow."
+        }
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "summary": "Update primary matte black color from #0A0A0A to #0B0B0B throughout the design system",
+      "acceptanceCriteria": [
+        "Background color updated to #0B0B0B in index.css and tailwind.config.js",
+        "All references to #0A0A0A replaced with #0B0B0B",
+        "Visual appearance maintains deep matte black luxury aesthetic"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Replace all instances of #0A0A0A with #0B0B0B in the color configuration to update the primary matte black color in Tailwind's color palette."
+        }
+      ]
+    },
+    {
+      "id": "REQ-21",
+      "summary": "Implement slide-style section transitions for premium presentation feel",
+      "acceptanceCriteria": [
+        "Each major section (Hero, Problem, Services, Difference, Power Statement, Contact) has distinct slide-like visual treatment",
+        "Sections transition smoothly when scrolling with slide-in effects",
+        "Spacing between sections creates clear slide boundaries",
+        "Animation timing feels polished like a keynote presentation",
+        "Mobile responsive behavior maintains slide-style transitions"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/HeroSection.tsx",
+          "operation": "modify",
+          "description": "Enhance with slide-style entrance effect and ensure it serves as the first slide with appropriate full-viewport treatment and smooth transition to the next section."
+        }
+      ]
+    }
+  ]
+}

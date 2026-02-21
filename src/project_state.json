@@ -1,0 +1,242 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Ultra-luxury corporate landing page for ROOT X GLOBAL - elite Sales, Marketing & Business Development Agency with premium black & gold slide-style design, featuring services: Website Development, Social Media Ads, Video Production, SEO/Branding, Business Strategy, Sales Structuring, Insurance Advisory",
+  "architectural_notes": [
+    "Black & gold premium theme: Deep Matte Black (#0A0A0A) primary, metallic gold gradient accent, royal navy blue subtle secondary",
+    "Typography: Elegant bold serif headings, minimal modern sans-serif body, large spacing",
+    "Luxury effects: Soft gold glow buttons, glassmorphism sections, lighting effects",
+    "Animation system: Fade-in, slow zoom backgrounds, Apple keynote-style slide transitions per section",
+    "Design philosophy: Minimal clutter, authoritative tone, visual impact over text density",
+    "Business Type: Sales, Marketing & Business Development Agency offering 7 core services",
+    "Services: Website Development, Social Media Ads, Video Production, SEO/Branding, Business Strategy, Sales Structuring, Insurance Advisory",
+    "Slide-based layout: 6 distinct premium presentation slides with smooth transitions between sections"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Dark cinematic world map with animated golden connection routes showing international trade paths and transport graphics including cargo ship outlines, airplane path lines, and container silhouettes for hero section background (world-map-routes.dim_1920x1080.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-cinematic-hero-section-with-headline-redefining-global-logistics-business-expansion-subheadline-precision-power-prestige-two-cta-buttons-schedule-private-consultation-and-call-now-with-luxury-gold-glowing-effects-and-animated-world-trade-routes-or-dark-cinematic-transport-background-with-slow-zoom-motion",
+      "title": "Create cinematic hero section with headline 'Redefining Global Logistics & Business Expansion', subheadline 'Precision. Power. Prestige.', two CTA buttons ('Schedule Private Consultation' and 'Call Now') with luxury gold glowing effects, and animated world trade routes or dark cinematic transport background with slow zoom motion",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-about-section-with-brand-positioning-statement-root-x-global-is-an-elite-global-solutions-partner-delivering-high-performance-logistics-strategic-expansion-and-market-dominance-with-authoritative-and-exclusive-tone",
+      "title": "Create About section with brand positioning statement: 'ROOT X GLOBAL is an elite global solutions partner delivering high-performance logistics, strategic expansion, and market dominance.' with authoritative and exclusive tone",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-signature-services-section-with-headline-and-6-service-cards-in-luxury-layout-global-freight-transport-management-import-export-strategy-corporate-branding-website-solutions-high-end-digital-advertising-market-expansion-consulting-executive-sales-structuring-each-card-must-have-gold-outline-hover-glow-animation-and-appear-with-slide-transition",
+      "title": "Create Signature Services section with headline and 6 service cards in luxury layout: 'Global Freight & Transport Management', 'Import-Export Strategy', 'Corporate Branding & Website Solutions', 'High-End Digital Advertising', 'Market Expansion Consulting', 'Executive Sales Structuring'. Each card must have gold outline, hover glow animation, and appear with slide transition",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-difference-section-with-headline-why-industry-leaders-choose-root-x-global-and-5-bullet-points-global-network-advantage-strategic-intelligence-precision-execution-premium-client-support-performance-driven-results-with-minimal-text-and-strong-visual-impact",
+      "title": "Create 'The Difference' section with headline 'Why Industry Leaders Choose ROOT X GLOBAL' and 5 bullet points: 'Global Network Advantage', 'Strategic Intelligence', 'Precision Execution', 'Premium Client Support', 'Performance Driven Results' with minimal text and strong visual impact",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-power-statement-section-on-full-black-background-with-large-gold-typography-displaying-beyond-transportation-beyond-marketing-we-build-global-empires",
+      "title": "Create power statement section on full black background with large gold typography displaying: 'Beyond Transportation. Beyond Marketing. We Build Global Empires.'",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-exclusive-contact-section-with-headline-begin-your-global-expansion-journey-display-phone-number-7557831531-and-email-www-rootxglobal-gmail-com-in-luxury-gold-bordered-contact-box-and-glowing-cta-button-book-executive-consultation",
+      "title": "Create exclusive contact section with headline 'Begin Your Global Expansion Journey', display phone number 7557831531 and email www.rootxglobal@gmail.com in luxury gold bordered contact box, and glowing CTA button 'Book Executive Consultation'",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-footer-with-company-name-root-x-global-and-tagline-expanding-beyond-boundaries-using-premium-black-and-gold-styling",
+      "title": "Create footer with company name 'ROOT X GLOBAL' and tagline 'Expanding Beyond Boundaries' using premium black and gold styling",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-ultra-premium-black-and-gold-design-system-with-primary-color-deep-matte-black-0a0a0a-metallic-gold-gradient-accents-subtle-royal-navy-blue-secondary-accents-luxury-lighting-effects-soft-gold-glow-on-interactive-elements-and-glassmorphism-sections-throughout-the-page",
+      "title": "Implement ultra-premium black and gold design system with primary color deep matte black (#0A0A0A), metallic gold gradient accents, subtle royal navy blue secondary accents, luxury lighting effects, soft gold glow on interactive elements, and glassmorphism sections throughout the page",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-typography-system-with-elegant-bold-serif-headings-and-minimal-modern-sans-serif-body-text-ensuring-large-spacing-and-clean-luxury-layout-throughout-the-page",
+      "title": "Implement typography system with elegant bold serif headings and minimal modern sans-serif body text, ensuring large spacing and clean luxury layout throughout the page",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-premium-animation-system-with-smooth-fade-in-effects-slow-zoom-background-motion-on-hero-section-and-apple-keynote-style-slide-transitions-between-sections-where-each-section-appears-like-a-premium-presentation-slide",
+      "title": "Implement premium animation system with smooth fade-in effects, slow zoom background motion on hero section, and Apple keynote-style slide transitions between sections where each section appears like a premium presentation slide",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-entire-landing-page-is-fully-mobile-responsive-while-maintaining-luxury-visual-impact-premium-spacing-and-high-end-design-integrity-across-all-device-sizes",
+      "title": "Ensure entire landing page is fully mobile responsive while maintaining luxury visual impact, premium spacing, and high-end design integrity across all device sizes",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-cinematic-transport-visuals-including-cargo-ship-at-night-with-gold-light-reflections-premium-container-terminals-private-jet-cargo-and-global-trade-routes-animation-elements-to-support-the-luxury-transport-and-logistics-theme",
+      "title": "Generate cinematic transport visuals including cargo ship at night with gold light reflections, premium container terminals, private jet cargo, and global trade routes animation elements to support the luxury transport and logistics theme",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-hero-section-headline-to-global-growth-strategic-power-market-domination-and-subheadline-to-root-x-global-delivers-elite-marketing-business-expansion-solutions-replace-existing-cta-button-text-with-schedule-executive-consultation-and-start-your-growth-journey",
+      "title": "Update hero section headline to 'Global Growth. Strategic Power. Market Domination.' and subheadline to 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.' Replace existing CTA button text with 'Schedule Executive Consultation' and 'Start Your Growth Journey'",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-new-the-problem-slide-section-that-displays-4-business-pain-points-in-bold-luxury-format-no-consistent-leads-weak-online-presence-poor-branding-visibility-no-structured-sales-system-use-minimal-text-with-strong-visual-impact-gold-accent-markers-and-glassmorphism-card-styling",
+      "title": "Create new 'The Problem' slide section that displays 4 business pain points in bold luxury format: 'No consistent leads', 'Weak online presence', 'Poor branding visibility', 'No structured sales system'. Use minimal text with strong visual impact, gold accent markers, and glassmorphism card styling",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-services-section-title-to-our-elite-solutions-and-replace-the-6-existing-service-cards-with-new-services-premium-website-development-high-converting-social-media-ads-cinematic-video-advertising-seo-brand-authority-building-business-development-strategy-sales-team-insurance-advisory-structuring-maintain-animated-gold-outline-cards-with-one-by-one-appearance-and-soft-gold-glow-effect",
+      "title": "Update services section title to 'Our Elite Solutions' and replace the 6 existing service cards with new services: 'Premium Website Development', 'High-Converting Social Media Ads', 'Cinematic Video Advertising', 'SEO & Brand Authority Building', 'Business Development Strategy', 'Sales Team & Insurance Advisory Structuring'. Maintain animated gold-outline cards with one-by-one appearance and soft gold glow effect",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-difference-section-headline-to-why-global-brands-trust-us-and-replace-existing-bullet-points-with-data-driven-growth-strategy-performance-focused-execution-premium-client-support-local-global-market-expertise-result-oriented-approach-maintain-spacious-and-powerful-layout",
+      "title": "Update 'The Difference' section headline to 'Why Global Brands Trust Us' and replace existing bullet points with: 'Data-Driven Growth Strategy', 'Performance-Focused Execution', 'Premium Client Support', 'Local & Global Market Expertise', 'Result-Oriented Approach'. Maintain spacious and powerful layout",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-power-statement-section-typography-to-display-three-separate-lines-we-don-t-just-build-businesses-we-build-global-brands-add-subtle-animated-gold-light-streak-effect-that-moves-across-the-screen-horizontally",
+      "title": "Update power statement section typography to display three separate lines: 'We Don't Just Build Businesses.', 'We Build Global Brands.' Add subtle animated gold light streak effect that moves across the screen horizontally",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-contact-section-headline-to-let-s-build-your-global-success-story-and-change-cta-button-text-to-book-private-strategy-call-maintain-phone-number-7557831531-and-email-www-rootxglobal-gmail-com-in-luxury-gold-bordered-contact-box-with-glowing-effects",
+      "title": "Update contact section headline to 'Let's Build Your Global Success Story' and change CTA button text to 'Book Private Strategy Call'. Maintain phone number 7557831531 and email www.rootxglobal@gmail.com in luxury gold bordered contact box with glowing effects",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-about-section-brand-positioning-statement-to-root-x-global-is-an-elite-global-growth-and-expansion-partner-delivering-premium-marketing-business-development-and-strategic-sales-solutions-adjust-tone-to-reflect-expanded-service-portfolio-beyond-logistics",
+      "title": "Update about section brand positioning statement to: 'ROOT X GLOBAL is an elite global growth and expansion partner delivering premium marketing, business development, and strategic sales solutions.' Adjust tone to reflect expanded service portfolio beyond logistics",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-primary-matte-black-color-from-0a0a0a-to-0b0b0b-throughout-the-design-system-to-match-the-specified-color-code",
+      "title": "Update primary matte black color from #0A0A0A to #0B0B0B throughout the design system to match the specified color code",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-slide-style-section-transitions-where-each-major-section-appears-like-a-premium-presentation-slide-with-smooth-entrance-effects-ensuring-each-section-feels-like-a-distinct-slide-in-a-keynote-presentation",
+      "title": "Implement slide-style section transitions where each major section appears like a premium presentation slide with smooth entrance effects, ensuring each section feels like a distinct slide in a keynote presentation",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-7",
+      "summary": "Premium animations: smooth fade-in, slow zoom background, Apple-style slide transitions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Mobile responsive design with luxury visual impact maintained",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Cinematic hero slide with 'Global Growth. Strategic Power. Market Domination.' headline, subheadline about elite marketing solutions, dual CTAs, dark world map background with animated golden routes",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "The Problem slide showcasing 4 business pain points in luxury format: no consistent leads, weak online presence, poor branding, no structured sales system",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Our Elite Solutions slide with 6 animated gold-outline service cards: Website Development, Social Media Ads, Video Advertising, SEO/Branding, Business Strategy, Sales/Insurance Structuring",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Why ROOT X GLOBAL slide with 5 trust-building bullet points: Data-Driven Strategy, Performance Execution, Premium Support, Market Expertise, Result-Oriented",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Power statement slide with full black background, large gold typography: 'We Don't Just Build Businesses. We Build Global Brands.' with animated gold light streak",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Exclusive contact slide with 'Let's Build Your Global Success Story' headline, phone/email in luxury gold bordered box, CTA button 'Book Private Strategy Call'",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "ROOT X GLOBAL",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

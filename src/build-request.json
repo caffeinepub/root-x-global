@@ -1,0 +1,231 @@
+{
+  "kind": "build_request",
+  "title": "Restructure landing page with slide-style navigation and expanded services showcase",
+  "projectName": "ROOT X GLOBAL",
+  "priority": "high",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "text": "Update hero section headline to 'Global Growth. Strategic Power. Market Domination.' and subheadline to 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.' Replace existing CTA button text with 'Schedule Executive Consultation' and 'Start Your Growth Journey'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Headline: \"Global Growth. Strategic Power. Market Domination.\"",
+          "Subheadline: \"ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.\"",
+          "CTA Buttons: \"Schedule Executive Consultation\" \"Start Your Growth Journey\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero headline displays 'Global Growth. Strategic Power. Market Domination.'",
+        "Hero subheadline displays 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.'",
+        "First CTA button shows 'Schedule Executive Consultation'",
+        "Second CTA button shows 'Start Your Growth Journey'",
+        "Both buttons maintain luxury gold glow effects"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Create new 'The Problem' slide section that displays 4 business pain points in bold luxury format: 'No consistent leads', 'Weak online presence', 'Poor branding visibility', 'No structured sales system'. Use minimal text with strong visual impact, gold accent markers, and glassmorphism card styling",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "SLIDE 2 – The Problem",
+          "Show business pain points in bold luxury format: - No consistent leads - Weak online presence - Poor branding visibility - No structured sales system",
+          "Minimal text, strong impact."
+        ]
+      },
+      "acceptanceCriteria": [
+        "New ProblemSection component created and inserted after HeroSection",
+        "Section displays exactly 4 pain points with provided text",
+        "Uses glassmorphism card styling with gold borders",
+        "Text is minimal and impactful with large typography",
+        "Pain points have visual markers (icons or gold bullets)",
+        "Section appears with smooth slide transition animation"
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Update services section title to 'Our Elite Solutions' and replace the 6 existing service cards with new services: 'Premium Website Development', 'High-Converting Social Media Ads', 'Cinematic Video Advertising', 'SEO & Brand Authority Building', 'Business Development Strategy', 'Sales Team & Insurance Advisory Structuring'. Maintain animated gold-outline cards with one-by-one appearance and soft gold glow effect",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "SLIDE 3 – Our Elite Solutions",
+          "• Premium Website Development • High-Converting Social Media Ads • Cinematic Video Advertising • SEO & Brand Authority Building • Business Development Strategy • Sales Team & Insurance Advisory Structuring",
+          "Each card appears one-by-one with soft gold glow effect."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Services section headline changed to 'Our Elite Solutions'",
+        "All 6 service cards updated with new titles exactly as specified",
+        "Cards maintain gold outline and hover glow animation",
+        "Cards appear sequentially with staggered animation delays",
+        "Icons updated to match new service categories appropriately",
+        "Layout remains responsive and maintains luxury aesthetic"
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Update 'The Difference' section headline to 'Why Global Brands Trust Us' and replace existing bullet points with: 'Data-Driven Growth Strategy', 'Performance-Focused Execution', 'Premium Client Support', 'Local & Global Market Expertise', 'Result-Oriented Approach'. Maintain spacious and powerful layout",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "SLIDE 4 – Why ROOT X GLOBAL",
+          "Headline: \"Why Global Brands Trust Us\"",
+          "Bullet Points: - Data-Driven Growth Strategy - Performance-Focused Execution - Premium Client Support - Local & Global Market Expertise - Result-Oriented Approach",
+          "Keep layout spacious and powerful."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section headline updated to 'Why Global Brands Trust Us'",
+        "All 5 bullet points replaced with exact text provided",
+        "Maintains existing gold check icons and animation effects",
+        "Layout remains spacious with strong visual hierarchy",
+        "Staggered entrance animations preserved"
+      ]
+    },
+    {
+      "id": "REQ-17",
+      "text": "Update power statement section typography to display three separate lines: 'We Don't Just Build Businesses.', 'We Build Global Brands.' Add subtle animated gold light streak effect that moves across the screen horizontally",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "SLIDE 5 – Power Statement",
+          "Large gold typography: \"We Don't Just Build Businesses. We Build Global Brands.\"",
+          "Subtle animated gold light streak across screen."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Power statement text updated to 'We Don't Just Build Businesses.' and 'We Build Global Brands.' as two separate lines",
+        "Animated gold light streak element added that moves horizontally across the section",
+        "Light streak animation is subtle and continuous",
+        "Text maintains large gold gradient typography",
+        "Full black cinematic background preserved"
+      ]
+    },
+    {
+      "id": "REQ-18",
+      "text": "Update contact section headline to 'Let's Build Your Global Success Story' and change CTA button text to 'Book Private Strategy Call'. Maintain phone number 7557831531 and email www.rootxglobal@gmail.com in luxury gold bordered contact box with glowing effects",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "SLIDE 6 – Exclusive Contact Slide",
+          "Headline: \"Let's Build Your Global Success Story\"",
+          "Phone: 7557831531",
+          "Email: www.rootxglobal@gmail.com",
+          "CTA Button: \"Book Private Strategy Call\""
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact section headline updated to 'Let's Build Your Global Success Story'",
+        "CTA button text changed to 'Book Private Strategy Call'",
+        "Phone number 7557831531 displayed correctly with clickable tel: link",
+        "Email www.rootxglobal@gmail.com displayed with clickable mailto: link",
+        "Gold bordered contact box and glowing effects maintained"
+      ]
+    },
+    {
+      "id": "REQ-19",
+      "text": "Update about section brand positioning statement to: 'ROOT X GLOBAL is an elite global growth and expansion partner delivering premium marketing, business development, and strategic sales solutions.' Adjust tone to reflect expanded service portfolio beyond logistics",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Business Type: Sales, Marketing & Business Development Agency.",
+          "Services include: - Website Design & Development - Facebook & Social Media Advertising - Video Ads Production - SEO & Branding - Business Development Strategy - Sales Team Structuring - Insurance Advisory (General & Life)",
+          "Brand Positioning: Elite Global Growth & Expansion Partner."
+        ]
+      },
+      "acceptanceCriteria": [
+        "About section text updated to reflect marketing and business development focus",
+        "Statement mentions premium marketing, business development, and strategic sales solutions",
+        "Maintains authoritative and exclusive tone",
+        "Glassmorphism card styling and fade-in animation preserved"
+      ]
+    },
+    {
+      "id": "REQ-20",
+      "text": "Update primary matte black color from #0A0A0A to #0B0B0B throughout the design system to match the specified color code",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Primary Color: Matte Black (#0B0B0B)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Background color updated to #0B0B0B in index.css and tailwind.config.js",
+        "All references to #0A0A0A replaced with #0B0B0B",
+        "Visual appearance maintains deep matte black luxury aesthetic"
+      ]
+    },
+    {
+      "id": "REQ-21",
+      "text": "Implement slide-style section transitions where each major section appears like a premium presentation slide with smooth entrance effects, ensuring each section feels like a distinct slide in a keynote presentation",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Each section must appear like a premium presentation slide.",
+          "Use smooth slide transitions.",
+          "Animation: Each section must appear like a premium presentation slide."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Each major section (Hero, Problem, Services, Difference, Power Statement, Contact) has distinct slide-like visual treatment",
+        "Sections transition smoothly when scrolling with slide-in effects",
+        "Spacing between sections creates clear slide boundaries",
+        "Animation timing feels polished like a keynote presentation",
+        "Mobile responsive behavior maintains slide-style transitions"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify frontend/src/hooks/useInternetIdentity.ts",
+    "Do not modify frontend/src/hooks/useActor.ts",
+    "Do not modify frontend/src/main.tsx",
+    "Do not modify frontend/src/components/ui components",
+    "Maintain single-actor Motoko backend architecture",
+    "Preserve luxury black and gold design system",
+    "Keep all existing animation effects and glassmorphism styling",
+    "Maintain mobile responsiveness across all changes"
+  ],
+  "nonGoals": [
+    "Adding backend functionality or data persistence",
+    "Implementing contact form submission logic",
+    "Adding real-time chat or communication features",
+    "Integrating third-party calendar or booking systems",
+    "Adding user authentication or login features",
+    "Creating admin dashboard or content management",
+    "Implementing analytics tracking beyond basic meta tags"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Dark cinematic world map with animated golden connection routes showing international trade paths and transport graphics including cargo ship outlines, airplane path lines, and container silhouettes for hero section background (world-map-routes.dim_1920x1080.png)"
+    ],
+    "edits": []
+  }
+}
