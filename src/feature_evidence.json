@@ -2,8 +2,47 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-update-hero-section-headline-to-global-growth-strategic-power-market-domination-and-subheadline-to-root-x-global-delivers-elite-marketing-business-expansion-solutions-replace-existing-cta-button-text-with-schedule-executive-consultation-and-start-your-growth-journey",
-      "featureTitle": "Update hero section headline to 'Global Growth. Strategic Power. Market Domination.' and subheadline to 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.' Replace existing CTA button text with 'Schedule Executive Consultation' and 'Start Your Growth Journey'",
+      "featureId": "feature-update-all-branding-from-root-x-global-to-zinmatt-global-throughout-the-application-including-page-title-meta-tags-headings-and-footer",
+      "featureTitle": "Update all branding from 'ROOT X GLOBAL' to 'ZINMATT GLOBAL' throughout the application including page title, meta tags, headings, and footer",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/AboutSection.tsx",
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-22"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-company-tagline-to-elevating-brands-to-global-authority-in-footer-and-meta-description",
+      "featureTitle": "Update company tagline to 'Elevating Brands to Global Authority' in footer and meta description",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-23"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-hero-section-headline-to-we-build-global-digital-authority-and-subheadline-to-premium-digital-marketing-social-media-ads-business-development-solutions",
+      "featureTitle": "Update hero section headline to 'We Build Global Digital Authority' and subheadline to 'Premium Digital Marketing, Social Media Ads & Business Development Solutions.'",
       "files": [
         "frontend/src/components/HeroSection.tsx"
       ],
@@ -15,16 +54,15 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-13"
+        "REQ-24"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-create-new-the-problem-slide-section-that-displays-4-business-pain-points-in-bold-luxury-format-no-consistent-leads-weak-online-presence-poor-branding-visibility-no-structured-sales-system-use-minimal-text-with-strong-visual-impact-gold-accent-markers-and-glassmorphism-card-styling",
-      "featureTitle": "Create new 'The Problem' slide section that displays 4 business pain points in bold luxury format: 'No consistent leads', 'Weak online presence', 'Poor branding visibility', 'No structured sales system'. Use minimal text with strong visual impact, gold accent markers, and glassmorphism card styling",
+      "featureId": "feature-update-hero-section-cta-buttons-to-get-free-consultation-and-view-our-services",
+      "featureTitle": "Update hero section CTA buttons to 'Get Free Consultation' and 'View Our Services'",
       "files": [
-        "frontend/src/App.tsx",
-        "frontend/src/components/ProblemSection.tsx"
+        "frontend/src/components/HeroSection.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -34,86 +72,13 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-14"
+        "REQ-25"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-update-services-section-title-to-our-elite-solutions-and-replace-the-6-existing-service-cards-with-new-services-premium-website-development-high-converting-social-media-ads-cinematic-video-advertising-seo-brand-authority-building-business-development-strategy-sales-team-insurance-advisory-structuring-maintain-animated-gold-outline-cards-with-one-by-one-appearance-and-soft-gold-glow-effect",
-      "featureTitle": "Update services section title to 'Our Elite Solutions' and replace the 6 existing service cards with new services: 'Premium Website Development', 'High-Converting Social Media Ads', 'Cinematic Video Advertising', 'SEO & Brand Authority Building', 'Business Development Strategy', 'Sales Team & Insurance Advisory Structuring'. Maintain animated gold-outline cards with one-by-one appearance and soft gold glow effect",
-      "files": [
-        "frontend/src/components/ServicesSection.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-15"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-update-the-difference-section-headline-to-why-global-brands-trust-us-and-replace-existing-bullet-points-with-data-driven-growth-strategy-performance-focused-execution-premium-client-support-local-global-market-expertise-result-oriented-approach-maintain-spacious-and-powerful-layout",
-      "featureTitle": "Update 'The Difference' section headline to 'Why Global Brands Trust Us' and replace existing bullet points with: 'Data-Driven Growth Strategy', 'Performance-Focused Execution', 'Premium Client Support', 'Local & Global Market Expertise', 'Result-Oriented Approach'. Maintain spacious and powerful layout",
-      "files": [
-        "frontend/src/components/DifferenceSection.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-16"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-update-power-statement-section-typography-to-display-three-separate-lines-we-don-t-just-build-businesses-we-build-global-brands-add-subtle-animated-gold-light-streak-effect-that-moves-across-the-screen-horizontally",
-      "featureTitle": "Update power statement section typography to display three separate lines: 'We Don't Just Build Businesses.', 'We Build Global Brands.' Add subtle animated gold light streak effect that moves across the screen horizontally",
-      "files": [
-        "frontend/src/components/PowerStatement.tsx",
-        "frontend/src/index.css"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-17"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-update-contact-section-headline-to-let-s-build-your-global-success-story-and-change-cta-button-text-to-book-private-strategy-call-maintain-phone-number-7557831531-and-email-www-rootxglobal-gmail-com-in-luxury-gold-bordered-contact-box-with-glowing-effects",
-      "featureTitle": "Update contact section headline to 'Let's Build Your Global Success Story' and change CTA button text to 'Book Private Strategy Call'. Maintain phone number 7557831531 and email www.rootxglobal@gmail.com in luxury gold bordered contact box with glowing effects",
-      "files": [
-        "frontend/src/components/ContactSection.tsx"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-18"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-update-about-section-brand-positioning-statement-to-root-x-global-is-an-elite-global-growth-and-expansion-partner-delivering-premium-marketing-business-development-and-strategic-sales-solutions-adjust-tone-to-reflect-expanded-service-portfolio-beyond-logistics",
-      "featureTitle": "Update about section brand positioning statement to: 'ROOT X GLOBAL is an elite global growth and expansion partner delivering premium marketing, business development, and strategic sales solutions.' Adjust tone to reflect expanded service portfolio beyond logistics",
+      "featureId": "feature-update-about-section-to-introduce-zinmatt-global-as-a-performance-driven-digital-growth-agency-with-focus-areas-digital-marketing-social-media-advertising-business-development-lead-generation-branding-strategy",
+      "featureTitle": "Update about section to introduce ZINMATT GLOBAL as a performance-driven digital growth agency with focus areas: Digital Marketing, Social Media Advertising, Business Development, Lead Generation, Branding Strategy",
       "files": [
         "frontend/src/components/AboutSection.tsx"
       ],
@@ -125,14 +90,163 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-19"
+        "REQ-26"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-update-primary-matte-black-color-from-0a0a0a-to-0b0b0b-throughout-the-design-system-to-match-the-specified-color-code",
-      "featureTitle": "Update primary matte black color from #0A0A0A to #0B0B0B throughout the design system to match the specified color code",
+      "featureId": "feature-replace-services-section-with-6-new-services-performance-marketing-facebook-instagram-ads-google-ads-management-high-converting-funnels-graphic-design-branding-international-business-growth-strategy-with-appropriate-icons",
+      "featureTitle": "Replace services section with 6 new services: 'Performance Marketing', 'Facebook & Instagram Ads', 'Google Ads Management', 'High-Converting Funnels', 'Graphic Design & Branding', 'International Business Growth Strategy' with appropriate icons",
       "files": [
+        "frontend/src/components/ServicesSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-27"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-why-choose-us-section-to-display-4-points-roi-focused-strategy-data-driven-execution-premium-brand-positioning-international-market-expertise-with-check-marks-and-glowing-golden-borders",
+      "featureTitle": "Update 'Why Choose Us' section to display 4 points: 'ROI Focused Strategy', 'Data Driven Execution', 'Premium Brand Positioning', 'International Market Expertise' with check marks and glowing golden borders",
+      "files": [
+        "frontend/src/components/DifferenceSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-28"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-remove-the-problem-section-from-the-landing-page-as-it-is-not-part-of-zinmatt-global-s-structure",
+      "featureTitle": "Remove the Problem section from the landing page as it is not part of ZINMATT GLOBAL's structure",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-29"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-portfolio-section-with-sliding-gallery-layout-and-luxury-hover-effects",
+      "featureTitle": "Create portfolio section with sliding gallery layout and luxury hover effects",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/PortfolioSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-30"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-cta-section-with-gold-gradient-background-ready-to-scale-globally-text-and-book-strategy-call-button",
+      "featureTitle": "Update CTA section with gold gradient background, 'Ready To Scale Globally?' text, and 'Book Strategy Call' button",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/CTASection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-31"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-contact-section-headline-to-display-phone-7557831531-email-and-add-whatsapp-button-with-gold-highlight-on-minimal-black-background",
+      "featureTitle": "Update contact section headline to display phone 7557831531, email, and add WhatsApp button with gold highlight on minimal black background",
+      "files": [
+        "frontend/src/components/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-32"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-power-statement-section-to-reflect-zinmatt-global-s-brand-message-while-maintaining-animated-gold-light-streaks-and-full-screen-black-background",
+      "featureTitle": "Update power statement section to reflect ZINMATT GLOBAL's brand message while maintaining animated gold light streaks and full-screen black background",
+      "files": [
+        "frontend/src/components/PowerStatement.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-33"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-animated-background-graphics-including-moving-abstract-lines-luxury-geometric-shapes-and-soft-particles-to-enhance-the-ultra-premium-feel-throughout-the-page",
+      "featureTitle": "Add animated background graphics including moving abstract lines, luxury geometric shapes, and soft particles to enhance the ultra-premium feel throughout the page",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/AnimatedBackground.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-34"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-color-system-to-use-exact-palette-000000-black-0f0f0f-charcoal-and-metallic-gold-gradient-d4af37-to-ffd700-replacing-previous-0b0b0b-base",
+      "featureTitle": "Update color system to use exact palette: #000000 (black), #0f0f0f (charcoal), and metallic gold gradient (#D4AF37 to #FFD700) replacing previous #0B0B0B base",
+      "files": [
+        "frontend/src/index.css",
         "frontend/tailwind.config.js"
       ],
       "components": [
@@ -143,15 +257,15 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-20"
+        "REQ-35"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-implement-slide-style-section-transitions-where-each-major-section-appears-like-a-premium-presentation-slide-with-smooth-entrance-effects-ensuring-each-section-feels-like-a-distinct-slide-in-a-keynote-presentation",
-      "featureTitle": "Implement slide-style section transitions where each major section appears like a premium presentation slide with smooth entrance effects, ensuring each section feels like a distinct slide in a keynote presentation",
+      "featureId": "feature-add-social-media-icons-in-gold-color-to-footer-facebook-linkedin-instagram",
+      "featureTitle": "Add social media icons in gold color to footer (Facebook, LinkedIn, Instagram)",
       "files": [
-        "frontend/src/components/HeroSection.tsx"
+        "frontend/src/components/Footer.tsx"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -161,7 +275,27 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-21"
+        "REQ-36"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-render-generated-luxury-background-images-including-abstract-geometric-patterns-and-particle-effects-as-static-assets-from-frontend-public-assets-generated",
+      "featureTitle": "Render generated luxury background images including abstract geometric patterns and particle effects as static assets from frontend/public/assets/generated",
+      "files": [
+        "frontend/src/components/AnimatedBackground.tsx",
+        "frontend/src/components/HeroSection.tsx",
+        "frontend/src/components/PowerStatement.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-37"
       ],
       "confidence": "high"
     }

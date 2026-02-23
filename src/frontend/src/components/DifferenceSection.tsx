@@ -2,11 +2,10 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { Check } from 'lucide-react';
 
 const advantages = [
-  'Data-Driven Growth Strategy',
-  'Performance-Focused Execution',
-  'Premium Client Support',
-  'Local & Global Market Expertise',
-  'Result-Oriented Approach',
+  'ROI Focused Strategy',
+  'Data Driven Execution',
+  'Premium Brand Positioning',
+  'International Market Expertise',
 ];
 
 export default function DifferenceSection() {
@@ -18,7 +17,7 @@ export default function DifferenceSection() {
       className="relative py-24 md:py-32 lg:py-40 bg-luxury-black slide-section"
     >
       <div className="absolute inset-0 opacity-20">
-        <div className="absolute inset-0 bg-gradient-to-br from-gold/10 via-transparent to-navy-dark/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-gold/10 via-transparent to-charcoal/20" />
       </div>
 
       <div
@@ -27,7 +26,7 @@ export default function DifferenceSection() {
         }`}
       >
         <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-gold-gradient mb-16 md:mb-20 text-center">
-          Why Global Brands Trust Us
+          Why Choose Us
         </h2>
 
         <div className="space-y-6 md:space-y-8">

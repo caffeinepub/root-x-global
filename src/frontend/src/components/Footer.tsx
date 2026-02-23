@@ -1,10 +1,11 @@
 import { SiFacebook, SiLinkedin, SiInstagram } from 'react-icons/si';
+import { Heart } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   const appIdentifier = typeof window !== 'undefined' 
     ? encodeURIComponent(window.location.hostname) 
-    : 'rootxglobal';
+    : 'zinmattglobal';
 
   return (
     <footer className="relative bg-luxury-black border-t border-gold/20 py-12 md:py-16">
@@ -13,31 +14,37 @@ export default function Footer() {
           {/* Logo/Brand */}
           <div className="text-center">
             <h3 className="font-serif text-2xl md:text-3xl lg:text-4xl font-bold text-gold-gradient mb-3">
-              ROOT X GLOBAL
+              ZINMATT GLOBAL
             </h3>
             <p className="font-sans text-base md:text-lg text-white/70 tracking-widest">
-              Expanding Beyond Boundaries
+              Elevating Brands to Global Authority
             </p>
           </div>
 
           {/* Social Links */}
           <div className="flex gap-6">
             <a
-              href="#"
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 rounded-full bg-gold/10 hover:bg-gold/20 transition-all duration-300 gold-glow-subtle"
               aria-label="Facebook"
             >
               <SiFacebook className="w-5 h-5 text-gold" />
             </a>
             <a
-              href="#"
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 rounded-full bg-gold/10 hover:bg-gold/20 transition-all duration-300 gold-glow-subtle"
               aria-label="LinkedIn"
             >
               <SiLinkedin className="w-5 h-5 text-gold" />
             </a>
             <a
-              href="#"
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="p-3 rounded-full bg-gold/10 hover:bg-gold/20 transition-all duration-300 gold-glow-subtle"
               aria-label="Instagram"
             >
@@ -51,11 +58,11 @@ export default function Footer() {
           {/* Copyright & Attribution */}
           <div className="text-center space-y-2">
             <p className="font-sans text-sm text-white/50">
-              © {currentYear} ROOT X GLOBAL. All rights reserved.
+              © {currentYear} ZINMATT GLOBAL. All Rights Reserved.
             </p>
             <p className="font-sans text-sm text-white/50">
               Built with{' '}
-              <span className="text-gold inline-block animate-pulse">♥</span>{' '}
+              <Heart className="inline-block w-4 h-4 text-gold animate-pulse" fill="currentColor" />{' '}
               using{' '}
               <a
                 href={`https://caffeine.ai/?utm_source=Caffeine-footer&utm_medium=referral&utm_content=${appIdentifier}`}

@@ -1,176 +1,316 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Restructure landing page with slide-style navigation and expanded services showcase",
+  "title": "Transform ROOT X GLOBAL to ZINMATT GLOBAL ultra-luxury digital agency website",
   "requirements": [
     {
-      "id": "REQ-13",
-      "summary": "Update hero section headline, subheadline, and CTA button text to reflect global growth positioning",
+      "id": "REQ-22",
+      "summary": "Update all branding from 'ROOT X GLOBAL' to 'ZINMATT GLOBAL' throughout the application",
       "acceptanceCriteria": [
-        "Hero headline displays 'Global Growth. Strategic Power. Market Domination.'",
-        "Hero subheadline displays 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.'",
-        "First CTA button shows 'Schedule Executive Consultation'",
-        "Second CTA button shows 'Start Your Growth Journey'",
-        "Both buttons maintain luxury gold glow effects"
+        "HTML title shows 'ZINMATT GLOBAL'",
+        "All instances of 'ROOT X GLOBAL' are replaced with 'ZINMATT GLOBAL'",
+        "Footer displays '© 2026 ZINMATT GLOBAL. All Rights Reserved.'"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Update page title to 'ZINMATT GLOBAL' and meta description to reflect digital marketing agency positioning with the tagline 'Elevating Brands to Global Authority'"
+        },
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Replace all instances of 'ROOT X GLOBAL' with 'ZINMATT GLOBAL' in the company name display and copyright notice, updating to '© 2026 ZINMATT GLOBAL. All Rights Reserved.'"
+        },
+        {
+          "path": "frontend/src/components/AboutSection.tsx",
+          "operation": "modify",
+          "description": "Replace 'ROOT X GLOBAL' brand references with 'ZINMATT GLOBAL' in the about content"
+        }
+      ]
+    },
+    {
+      "id": "REQ-23",
+      "summary": "Update company tagline to 'Elevating Brands to Global Authority' in footer and meta description",
+      "acceptanceCriteria": [
+        "Tagline appears in footer below company name",
+        "Meta description includes the tagline"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Add tagline 'Elevating Brands to Global Authority' below the ZINMATT GLOBAL company name with subtle gold text styling"
+        },
+        {
+          "path": "frontend/index.html",
+          "operation": "modify",
+          "description": "Include the tagline 'Elevating Brands to Global Authority' in the meta description tag"
+        }
+      ]
+    },
+    {
+      "id": "REQ-24",
+      "summary": "Update hero section headline to 'We Build Global Digital Authority' and subheadline about digital marketing solutions",
+      "acceptanceCriteria": [
+        "Hero headline displays 'We Build Global Digital Authority'",
+        "Hero subheadline displays exact text about digital marketing and business development",
+        "Existing motion animation effects are preserved"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/HeroSection.tsx",
           "operation": "modify",
-          "description": "Update headline text to 'Global Growth. Strategic Power. Market Domination.', subheadline to 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.', first CTA button text to 'Schedule Executive Consultation', and second CTA button text to 'Start Your Growth Journey'. Maintain existing animation effects and styling. Add the generated world map image frontend/public/assets/generated/world-map-routes.dim_1920x1080.png to the rotating background images array featuring dark cinematic world map with animated golden connection routes showing international trade paths and transport graphics."
+          "description": "Update headline to 'We Build Global Digital Authority' and subheadline to 'Premium Digital Marketing, Social Media Ads & Business Development Solutions.' while preserving all existing animation effects and scroll animations"
         }
       ]
     },
     {
-      "id": "REQ-14",
-      "summary": "Create new 'The Problem' slide section displaying 4 business pain points in bold luxury format",
+      "id": "REQ-25",
+      "summary": "Update hero section CTA buttons to 'Get Free Consultation' and 'View Our Services'",
       "acceptanceCriteria": [
-        "New ProblemSection component created and inserted after HeroSection",
-        "Section displays exactly 4 pain points with provided text",
-        "Uses glassmorphism card styling with gold borders",
-        "Text is minimal and impactful with large typography",
-        "Pain points have visual markers (icons or gold bullets)",
-        "Section appears with smooth slide transition animation"
+        "First button displays 'Get Free Consultation'",
+        "Second button displays 'View Our Services'",
+        "Buttons retain luxury gold glow effects and existing styling"
       ],
       "file_operations": [
         {
-          "path": "frontend/src/components/ProblemSection.tsx",
-          "operation": "create",
-          "description": "Create new ProblemSection component displaying 4 pain points: 'No consistent leads', 'Weak online presence', 'Poor branding visibility', 'No structured sales system'. Use glassmorphism card styling with gold borders, large impactful typography, gold accent markers (icons or bullets), and scroll-triggered fade-in animation using useScrollAnimation hook. Structure as a full-width slide section matching the luxury aesthetic."
-        },
-        {
-          "path": "frontend/src/App.tsx",
+          "path": "frontend/src/components/HeroSection.tsx",
           "operation": "modify",
-          "description": "Import and insert the new ProblemSection component after HeroSection and before ServicesSection in the landing page layout. Apply slide-style spacing and transition classes to each major section (HeroSection, ProblemSection, ServicesSection, DifferenceSection, PowerStatement, ContactSection, AboutSection) to create distinct slide boundaries. Ensure proper vertical spacing between sections and that scroll behavior feels like transitioning between presentation slides. Maintain mobile responsiveness."
+          "description": "Update the two CTA buttons to display 'Get Free Consultation' and 'View Our Services' while maintaining the luxury gold glow hover effects and existing button styling"
         }
       ]
     },
     {
-      "id": "REQ-15",
-      "summary": "Update services section title and replace all 6 service cards with new marketing and business development services",
+      "id": "REQ-26",
+      "summary": "Update about section to introduce ZINMATT GLOBAL as a performance-driven digital growth agency",
       "acceptanceCriteria": [
-        "Services section headline changed to 'Our Elite Solutions'",
-        "All 6 service cards updated with new titles exactly as specified",
-        "Cards maintain gold outline and hover glow animation",
-        "Cards appear sequentially with staggered animation delays",
-        "Icons updated to match new service categories appropriately",
-        "Layout remains responsive and maintains luxury aesthetic"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/ServicesSection.tsx",
-          "operation": "modify",
-          "description": "Update section title to 'Our Elite Solutions'. Replace all 6 service cards with: 'Premium Website Development', 'High-Converting Social Media Ads', 'Cinematic Video Advertising', 'SEO & Brand Authority Building', 'Business Development Strategy', 'Sales Team & Insurance Advisory Structuring'. Update icons appropriately (e.g., Monitor for websites, Share2 for social ads, Video for video advertising, Search for SEO, TrendingUp for business development, Users for sales team). Maintain animated gold-outline cards, one-by-one appearance animation, staggered delays, and soft gold glow hover effects. Apply slide-style visual treatment with enhanced entrance animation to make this section feel like a distinct presentation slide."
-        }
-      ]
-    },
-    {
-      "id": "REQ-16",
-      "summary": "Update 'The Difference' section headline and replace bullet points with new trust-building statements",
-      "acceptanceCriteria": [
-        "Section headline updated to 'Why Global Brands Trust Us'",
-        "All 5 bullet points replaced with exact text provided",
-        "Maintains existing gold check icons and animation effects",
-        "Layout remains spacious with strong visual hierarchy",
-        "Staggered entrance animations preserved"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/DifferenceSection.tsx",
-          "operation": "modify",
-          "description": "Update section headline to 'Why Global Brands Trust Us'. Replace all 5 bullet points with: 'Data-Driven Growth Strategy', 'Performance-Focused Execution', 'Premium Client Support', 'Local & Global Market Expertise', 'Result-Oriented Approach'. Maintain existing gold check icons in glowing circles, staggered animation delays, and spacious powerful layout. Apply slide-style visual treatment with enhanced entrance animation to make this section feel like a distinct presentation slide."
-        }
-      ]
-    },
-    {
-      "id": "REQ-17",
-      "summary": "Update power statement typography to three separate lines and add animated gold light streak effect",
-      "acceptanceCriteria": [
-        "Power statement text updated to 'We Don't Just Build Businesses.' and 'We Build Global Brands.' as two separate lines",
-        "Animated gold light streak element added that moves horizontally across the section",
-        "Light streak animation is subtle and continuous",
-        "Text maintains large gold gradient typography",
-        "Full black cinematic background preserved"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/PowerStatement.tsx",
-          "operation": "modify",
-          "description": "Update text content to display three separate lines: 'We Don't Just Build Businesses.' and 'We Build Global Brands.' Add a subtle animated gold light streak element that moves horizontally across the screen using CSS keyframe animation. The light streak should be a gradient div element that continuously animates from left to right with a subtle glow effect. Maintain large gold gradient typography and full black cinematic background. Enhance existing cinematic section with slide-style entrance effect to ensure it feels like a standalone presentation slide."
-        },
-        {
-          "path": "frontend/src/index.css",
-          "operation": "modify",
-          "description": "Add CSS keyframe animation for the gold light streak effect that moves horizontally across the screen. The animation should be subtle, continuous, and use gold gradient colors matching the luxury aesthetic. Add CSS classes for slide-style section treatments including slide-in animations, section boundary spacing, and smooth transition effects. Create utility classes for slide entrance effects that can be applied to major sections to achieve a premium keynote presentation feel. Ensure animations work responsively on mobile devices. Replace all instances of #0A0A0A with #0B0B0B in CSS variables and custom styles to update the primary matte black color throughout the design system."
-        }
-      ]
-    },
-    {
-      "id": "REQ-18",
-      "summary": "Update contact section headline, CTA button text, and maintain phone/email display with luxury styling",
-      "acceptanceCriteria": [
-        "Contact section headline updated to 'Let's Build Your Global Success Story'",
-        "CTA button text changed to 'Book Private Strategy Call'",
-        "Phone number 7557831531 displayed correctly with clickable tel: link",
-        "Email www.rootxglobal@gmail.com displayed with clickable mailto: link",
-        "Gold bordered contact box and glowing effects maintained"
-      ],
-      "file_operations": [
-        {
-          "path": "frontend/src/components/ContactSection.tsx",
-          "operation": "modify",
-          "description": "Update section headline to 'Let's Build Your Global Success Story' and CTA button text to 'Book Private Strategy Call'. Ensure phone number 7557831531 has clickable tel: link and email www.rootxglobal@gmail.com has clickable mailto: link. Maintain luxury gold-bordered contact boxes with glowing effects and existing styling. Apply slide-style visual treatment with enhanced entrance animation to make this final section feel like a closing presentation slide."
-        }
-      ]
-    },
-    {
-      "id": "REQ-19",
-      "summary": "Update about section brand positioning statement to reflect expanded service portfolio",
-      "acceptanceCriteria": [
-        "About section text updated to reflect marketing and business development focus",
-        "Statement mentions premium marketing, business development, and strategic sales solutions",
-        "Maintains authoritative and exclusive tone",
-        "Glassmorphism card styling and fade-in animation preserved"
+        "About section describes ZINMATT GLOBAL as performance-driven digital growth agency",
+        "All five focus areas are clearly presented",
+        "Slide-style animation is maintained"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/AboutSection.tsx",
           "operation": "modify",
-          "description": "Update brand positioning statement to: 'ROOT X GLOBAL is an elite global growth and expansion partner delivering premium marketing, business development, and strategic sales solutions.' Adjust tone to reflect expanded service portfolio beyond logistics while maintaining authoritative and exclusive positioning. Preserve glassmorphism card styling and scroll-triggered fade-in animation. Apply slide-style visual treatment with enhanced entrance animation to integrate this section into the overall slide-based presentation flow."
+          "description": "Replace the about content to introduce ZINMATT GLOBAL as a performance-driven digital growth agency with focus on Digital Marketing, Social Media Advertising, Business Development, Lead Generation, and Branding Strategy. Preserve glassmorphism card design and fade-in scroll animation"
         }
       ]
     },
     {
-      "id": "REQ-20",
-      "summary": "Update primary matte black color from #0A0A0A to #0B0B0B throughout the design system",
+      "id": "REQ-27",
+      "summary": "Replace services section with 6 new services for digital marketing agency",
       "acceptanceCriteria": [
-        "Background color updated to #0B0B0B in index.css and tailwind.config.js",
-        "All references to #0A0A0A replaced with #0B0B0B",
-        "Visual appearance maintains deep matte black luxury aesthetic"
+        "All 6 new services are displayed in service cards",
+        "Each service has relevant icon from lucide-react",
+        "Gold outline hover effects are preserved",
+        "Slide-style card animations are maintained"
       ],
       "file_operations": [
         {
-          "path": "frontend/tailwind.config.js",
+          "path": "frontend/src/components/ServicesSection.tsx",
           "operation": "modify",
-          "description": "Replace all instances of #0A0A0A with #0B0B0B in the color configuration to update the primary matte black color in Tailwind's color palette."
+          "description": "Replace the 6 services with: Performance Marketing (TrendingUp icon), Facebook & Instagram Ads (Share2 icon), Google Ads Management (Search icon), High-Converting Funnels (Zap icon), Graphic Design & Branding (Palette icon), and International Business Growth Strategy (Globe icon). Maintain the grid layout, hover animations, and gold outline effects"
         }
       ]
     },
     {
-      "id": "REQ-21",
-      "summary": "Implement slide-style section transitions for premium presentation feel",
+      "id": "REQ-28",
+      "summary": "Update 'Why Choose Us' section to display 4 points about ROI, data-driven execution, premium positioning, and international expertise",
       "acceptanceCriteria": [
-        "Each major section (Hero, Problem, Services, Difference, Power Statement, Contact) has distinct slide-like visual treatment",
-        "Sections transition smoothly when scrolling with slide-in effects",
-        "Spacing between sections creates clear slide boundaries",
-        "Animation timing feels polished like a keynote presentation",
-        "Mobile responsive behavior maintains slide-style transitions"
+        "Section displays exactly 4 points with check icons",
+        "Black background with glowing golden borders is maintained",
+        "All bullet points use the specified text exactly"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/DifferenceSection.tsx",
+          "operation": "modify",
+          "description": "Update the difference section to display exactly 4 points: 'ROI Focused Strategy', 'Data Driven Execution', 'Premium Brand Positioning', and 'International Market Expertise'. Update the section heading to 'Why Choose Us'. Preserve glassmorphism cards, gold check icons, black background with golden borders, and staggered animations"
+        }
+      ]
+    },
+    {
+      "id": "REQ-29",
+      "summary": "Remove the Problem section from the landing page",
+      "acceptanceCriteria": [
+        "Problem section is no longer rendered in App.tsx",
+        "Page flow transitions smoothly from Hero to About/Services"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Remove the ProblemSection import and component rendering from the page structure. Ensure smooth page flow transitions from Hero to other sections"
+        }
+      ]
+    },
+    {
+      "id": "REQ-30",
+      "summary": "Create portfolio section with sliding gallery layout and luxury hover effects",
+      "acceptanceCriteria": [
+        "Portfolio section displays between Services and CTA sections",
+        "Implements horizontal sliding gallery layout",
+        "Portfolio items have gold hover glow effects",
+        "Maintains glassmorphism and luxury styling theme"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/PortfolioSection.tsx",
+          "operation": "create",
+          "description": "Create a new portfolio section component with horizontal sliding gallery layout showcasing digital agency projects. Implement gold hover glow effects, glassmorphism design, and smooth horizontal scroll/slide animations. Use scroll animation hook for visibility triggers"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the new PortfolioSection component between the Services section and the CTA/Contact sections. Wrap it in a slide-container div for consistent section transitions"
+        }
+      ]
+    },
+    {
+      "id": "REQ-31",
+      "summary": "Update CTA section with gold gradient background, 'Ready To Scale Globally?' text, and 'Book Strategy Call' button",
+      "acceptanceCriteria": [
+        "CTA section has gold gradient background (#D4AF37 to #FFD700)",
+        "Displays 'Ready To Scale Globally?' as headline",
+        "Button text is 'Book Strategy Call'",
+        "Button has luxury styling with hover effects"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/CTASection.tsx",
+          "operation": "create",
+          "description": "Create a new CTA section component with a gold gradient background (from #D4AF37 to #FFD700). Display the headline 'Ready To Scale Globally?' and a luxury-styled button with text 'Book Strategy Call' that has hover glow effects. Position this section before the Contact section"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the new CTASection component after the Portfolio section and before the Contact section. Wrap it in a slide-container div"
+        }
+      ]
+    },
+    {
+      "id": "REQ-32",
+      "summary": "Update contact section with phone 7557831531, email, and WhatsApp button with gold highlight",
+      "acceptanceCriteria": [
+        "Contact section displays phone number 7557831531 as clickable link",
+        "Email is displayed (zinmattglobal@gmail.com inferred from pattern)",
+        "WhatsApp button is added with gold glow highlight effect",
+        "Section maintains minimal black background design"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactSection.tsx",
+          "operation": "modify",
+          "description": "Update phone number to 7557831531, update email to zinmattglobal@gmail.com, and add a new WhatsApp button with gold glow highlight effect using lucide-react MessageCircle icon. Maintain minimal black background and existing luxury styling with gold glow effects on all contact links"
+        }
+      ]
+    },
+    {
+      "id": "REQ-33",
+      "summary": "Update power statement section to reflect ZINMATT GLOBAL's digital agency brand message",
+      "acceptanceCriteria": [
+        "Power statement reflects digital agency positioning",
+        "Animated gold light streaks are preserved",
+        "Full-screen black background is maintained",
+        "Typography uses large gold gradient text"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/PowerStatement.tsx",
+          "operation": "modify",
+          "description": "Update the power statement text to reflect ZINMATT GLOBAL's positioning as a digital marketing authority and growth agency. Preserve all animated background elements, gold light streaks, full-screen black background, and large gold gradient typography effects"
+        }
+      ]
+    },
+    {
+      "id": "REQ-34",
+      "summary": "Add animated background graphics including moving abstract lines, luxury geometric shapes, and soft particles",
+      "acceptanceCriteria": [
+        "Background contains animated abstract line elements",
+        "Geometric shapes animate subtly in the background",
+        "Particle effects are visible but not distracting",
+        "Animations run smoothly without performance issues"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/AnimatedBackground.tsx",
+          "operation": "create",
+          "description": "Create a new animated background component that renders moving abstract lines, luxury geometric shapes (triangles, circles, hexagons), and soft particle effects. Use CSS animations and transforms for smooth performance. Include opacity controls to keep effects subtle and non-distracting"
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the AnimatedBackground component at the root level of the App component so it displays behind all sections throughout the page"
+        },
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Add CSS keyframe animations for abstract line movement, geometric shape rotations/translations, and particle floating effects. Ensure animations are smooth and use GPU-accelerated properties (transform, opacity) for performance"
+        }
+      ]
+    },
+    {
+      "id": "REQ-35",
+      "summary": "Update color system to use exact palette: #000000, #0f0f0f, and metallic gold gradient #D4AF37 to #FFD700",
+      "acceptanceCriteria": [
+        "Primary black is #000000 throughout",
+        "Charcoal accent is #0f0f0f",
+        "Gold gradients use #D4AF37 to #FFD700 range",
+        "All CSS variables and Tailwind config are updated"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Update CSS custom properties to use #000000 as primary black (replacing #0B0B0B), #0f0f0f as charcoal accent, and metallic gold gradient from #D4AF37 to #FFD700. Update all color variables throughout the stylesheet"
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Update the custom color palette in the Tailwind config to use #000000 for black, #0f0f0f for charcoal, and the gold gradient range from #D4AF37 to #FFD700. Update any background color definitions and shadow configurations"
+        }
+      ]
+    },
+    {
+      "id": "REQ-36",
+      "summary": "Add social media icons in gold color to footer (Facebook, LinkedIn, Instagram)",
+      "acceptanceCriteria": [
+        "Footer contains gold-colored social media icons",
+        "Icons are clickable and link to social profiles",
+        "Icons have hover glow effects matching the luxury theme"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Footer.tsx",
+          "operation": "modify",
+          "description": "Ensure the existing social media icons (Facebook, LinkedIn, Instagram) are styled with gold color (#D4AF37) and include hover glow effects. Update links to point to ZINMATT GLOBAL social media profiles. Icons should use lucide-react components and match the luxury theme"
+        }
+      ]
+    },
+    {
+      "id": "REQ-37",
+      "summary": "Render generated luxury background images as static assets from frontend/public/assets/generated",
+      "acceptanceCriteria": [
+        "Background images are loaded from frontend/public/assets/generated directory",
+        "Images are displayed as static assets without backend routing",
+        "Images enhance the luxury aesthetic across sections"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/HeroSection.tsx",
           "operation": "modify",
-          "description": "Enhance with slide-style entrance effect and ensure it serves as the first slide with appropriate full-viewport treatment and smooth transition to the next section."
+          "description": "Replace the rotating background images array to reference the generated luxury images: frontend/public/assets/generated/luxury-geometric-bg.dim_1920x1080.png, frontend/public/assets/generated/abstract-gold-lines.dim_1920x1080.png. Load these as static assets using standard img src paths"
+        },
+        {
+          "path": "frontend/src/components/AnimatedBackground.tsx",
+          "operation": "modify",
+          "description": "Layer the generated particle overlay image frontend/public/assets/generated/gold-particles-overlay.dim_1920x1080.png as a fixed background element with low opacity to create the soft particle effect throughout the page"
+        },
+        {
+          "path": "frontend/src/components/PowerStatement.tsx",
+          "operation": "modify",
+          "description": "Use the generated abstract gold lines image frontend/public/assets/generated/abstract-gold-lines.dim_1920x1080.png as an animated background layer to enhance the moving line effects in this section"
         }
       ]
     }

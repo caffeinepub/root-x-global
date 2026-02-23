@@ -1,6 +1,6 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import { Button } from '@/components/ui/button';
-import { Phone, Mail } from 'lucide-react';
+import { Phone, Mail, MessageCircle } from 'lucide-react';
 
 export default function ContactSection() {
   const { ref, isVisible } = useScrollAnimation();
@@ -9,11 +9,15 @@ export default function ContactSection() {
     window.location.href = 'tel:7557831531';
   };
 
+  const handleWhatsApp = () => {
+    window.open('https://wa.me/917557831531', '_blank');
+  };
+
   return (
     <section
       id="contact-section"
       ref={ref}
-      className="relative py-24 md:py-32 lg:py-40 bg-gradient-to-b from-luxury-black via-navy-dark to-luxury-black slide-section"
+      className="relative py-24 md:py-32 lg:py-40 bg-luxury-black slide-section"
     >
       <div
         className={`container mx-auto px-6 md:px-12 max-w-4xl transition-all duration-1500 ${
@@ -43,16 +47,30 @@ export default function ContactSection() {
             <div className="h-px bg-gold/20" />
 
             <a
-              href="mailto:www.rootxglobal@gmail.com"
+              href="mailto:zinmattglobal@gmail.com"
               className="flex items-center justify-center gap-4 md:gap-6 group transition-all duration-300 hover:scale-105"
             >
               <div className="p-4 rounded-full bg-gold/10 group-hover:bg-gold/20 transition-all duration-300 gold-glow">
                 <Mail className="w-6 h-6 md:w-8 md:h-8 text-gold" />
               </div>
               <span className="font-sans text-xl md:text-2xl lg:text-3xl text-white font-light tracking-wide break-all">
-                www.rootxglobal@gmail.com
+                zinmattglobal@gmail.com
               </span>
             </a>
+
+            <div className="h-px bg-gold/20" />
+
+            <button
+              onClick={handleWhatsApp}
+              className="flex items-center justify-center gap-4 md:gap-6 group transition-all duration-300 hover:scale-105 w-full"
+            >
+              <div className="p-4 rounded-full bg-gold/10 group-hover:bg-gold/20 transition-all duration-300 gold-glow">
+                <MessageCircle className="w-6 h-6 md:w-8 md:h-8 text-gold" />
+              </div>
+              <span className="font-sans text-xl md:text-2xl lg:text-3xl text-white font-light tracking-wide">
+                WhatsApp Us
+              </span>
+            </button>
           </div>
         </div>
 

@@ -1,17 +1,22 @@
 # Specification
 
 ## Summary
-**Goal:** Restructure the ROOT X GLOBAL landing page from logistics to marketing/business development agency with slide-style navigation and expanded services showcase.
+**Goal:** Transform ROOT X GLOBAL logistics website into ZINMATT GLOBAL ultra-luxury digital marketing agency website with complete rebranding, new service offerings, and enhanced premium visual design.
 
 **Planned changes:**
-- Update hero section with new headline "Global Growth. Strategic Power. Market Domination.", new subheadline, and updated CTA buttons
-- Create new "The Problem" slide section displaying 4 business pain points in luxury format with glassmorphism cards
-- Update services section to "Our Elite Solutions" with 6 new service cards (Premium Website Development, High-Converting Social Media Ads, Cinematic Video Advertising, SEO & Brand Authority Building, Business Development Strategy, Sales Team & Insurance Advisory Structuring)
-- Update "The Difference" section to "Why Global Brands Trust Us" with 5 new bullet points
-- Update power statement section with two-line typography and add animated horizontal gold light streak effect
-- Update contact section headline to "Let's Build Your Global Success Story" and CTA button to "Book Private Strategy Call"
-- Update about section brand positioning to reflect marketing and business development focus
-- Update primary matte black color from #0A0A0A to #0B0B0B
-- Implement slide-style section transitions with smooth entrance effects for keynote-like presentation feel
+- Rebrand entire application from 'ROOT X GLOBAL' to 'ZINMATT GLOBAL' with new tagline 'Elevating Brands to Global Authority'
+- Update hero section with new headline 'We Build Global Digital Authority', subheadline about digital marketing solutions, and CTAs 'Get Free Consultation' and 'View Our Services'
+- Replace about section content to introduce ZINMATT GLOBAL as performance-driven digital growth agency with five focus areas (Digital Marketing, Social Media Advertising, Business Development, Lead Generation, Branding Strategy)
+- Replace services section with 6 new digital agency services: Performance Marketing, Facebook & Instagram Ads, Google Ads Management, High-Converting Funnels, Graphic Design & Branding, International Business Growth Strategy
+- Update 'Why Choose Us' section with 4 new points: ROI Focused Strategy, Data Driven Execution, Premium Brand Positioning, International Market Expertise
+- Remove Problem section entirely from landing page
+- Add new Portfolio section with sliding gallery layout and luxury hover effects
+- Update CTA section with gold gradient background, 'Ready To Scale Globally?' text, and 'Book Strategy Call' button
+- Update Contact section with phone 7557831531, email, and add WhatsApp button with gold highlight on minimal black background
+- Update power statement section to reflect digital agency brand message
+- Add animated background graphics including moving abstract lines, luxury geometric shapes, and soft particles throughout page
+- Update color system to exact palette: #000000 (black), #0f0f0f (charcoal), and metallic gold gradient (#D4AF37 to #FFD700)
+- Add gold-colored social media icons (Facebook, LinkedIn, Instagram) to footer
+- Integrate generated luxury background images as static assets
 
-**User-visible outcome:** A restructured premium landing page showcasing ROOT X GLOBAL as an elite marketing and business development agency with slide-style navigation, expanded service offerings, updated messaging, and cinematic presentation transitions.
+**User-visible outcome:** Users will see a completely rebranded ultra-luxury digital marketing agency website for ZINMATT GLOBAL with new services, enhanced premium animations, luxury background graphics, and cohesive black-and-gold aesthetic throughout.

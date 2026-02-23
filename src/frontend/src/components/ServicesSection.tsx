@@ -1,30 +1,30 @@
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-import { Monitor, Share2, Video, Search, TrendingUp, Users } from 'lucide-react';
+import { TrendingUp, Share2, Search, Zap, Palette, Globe } from 'lucide-react';
 
 const services = [
   {
-    icon: Monitor,
-    title: 'Premium Website Development',
+    icon: TrendingUp,
+    title: 'Performance Marketing',
   },
   {
     icon: Share2,
-    title: 'High-Converting Social Media Ads',
-  },
-  {
-    icon: Video,
-    title: 'Cinematic Video Advertising',
+    title: 'Facebook & Instagram Ads',
   },
   {
     icon: Search,
-    title: 'SEO & Brand Authority Building',
+    title: 'Google Ads Management',
   },
   {
-    icon: TrendingUp,
-    title: 'Business Development Strategy',
+    icon: Zap,
+    title: 'High-Converting Funnels',
   },
   {
-    icon: Users,
-    title: 'Sales Team & Insurance Advisory Structuring',
+    icon: Palette,
+    title: 'Graphic Design & Branding',
+  },
+  {
+    icon: Globe,
+    title: 'International Business Growth Strategy',
   },
 ];
 
@@ -34,7 +34,7 @@ export default function ServicesSection() {
   return (
     <section
       ref={ref}
-      className="relative py-24 md:py-32 lg:py-40 bg-gradient-to-b from-luxury-black via-navy-dark to-luxury-black slide-section"
+      className="relative py-24 md:py-32 lg:py-40 bg-gradient-to-b from-luxury-black via-charcoal to-luxury-black slide-section"
     >
       <div
         className={`container mx-auto px-6 md:px-12 transition-all duration-1500 ${

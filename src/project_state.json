@@ -1,20 +1,22 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
-  "summary": "Ultra-luxury corporate landing page for ROOT X GLOBAL - elite Sales, Marketing & Business Development Agency with premium black & gold slide-style design, featuring services: Website Development, Social Media Ads, Video Production, SEO/Branding, Business Strategy, Sales Structuring, Insurance Advisory",
+  "projectStateVersion": 7,
+  "summary": "Ultra-luxury corporate landing page for ZINMATT GLOBAL - premium digital marketing agency with black & gold design, featuring services: Performance Marketing, Social Media Ads, Google Ads, High-Converting Funnels, Graphic Design & Branding, International Business Growth Strategy",
   "architectural_notes": [
-    "Black & gold premium theme: Deep Matte Black (#0A0A0A) primary, metallic gold gradient accent, royal navy blue subtle secondary",
     "Typography: Elegant bold serif headings, minimal modern sans-serif body, large spacing",
     "Luxury effects: Soft gold glow buttons, glassmorphism sections, lighting effects",
     "Animation system: Fade-in, slow zoom backgrounds, Apple keynote-style slide transitions per section",
     "Design philosophy: Minimal clutter, authoritative tone, visual impact over text density",
-    "Business Type: Sales, Marketing & Business Development Agency offering 7 core services",
-    "Services: Website Development, Social Media Ads, Video Production, SEO/Branding, Business Strategy, Sales Structuring, Insurance Advisory",
-    "Slide-based layout: 6 distinct premium presentation slides with smooth transitions between sections"
+    "Slide-based layout: 6 distinct premium presentation slides with smooth transitions between sections",
+    "Color palette: Pure black (#000000), deep charcoal (#0F0F0F), metallic gold gradient (#D4AF37 to #FFD700)",
+    "Animated background graphics: moving abstract lines, luxury geometric shapes, soft particles",
+    "Glassmorphism effects with subtle golden glow highlights throughout",
+    "Smooth scroll animations and slide transitions for every section",
+    "Modern luxury typography: bold sans-serif headings, clean light body font"
   ],
   "known_issues": [],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Dark cinematic world map with animated golden connection routes showing international trade paths and transport graphics including cargo ship outlines, airplane path lines, and container silhouettes for hero section background (world-map-routes.dim_1920x1080.png)",
+  "imageRequirements": "## Required Images\n- Luxury abstract geometric pattern background with gold lines and shapes on black background (luxury-geometric-bg.dim_1920x1080.png)\n- Animated particle effect overlay with soft golden particles on transparent background (gold-particles-overlay.dim_1920x1080.png)\n- Moving abstract lines pattern with luxury gold gradients for background animation (abstract-gold-lines.dim_1920x1080.png)",
   "existing_features": [
     {
       "id": "feature-create-cinematic-hero-section-with-headline-redefining-global-logistics-business-expansion-subheadline-precision-power-prestige-two-cta-buttons-schedule-private-consultation-and-call-now-with-luxury-gold-glowing-effects-and-animated-world-trade-routes-or-dark-cinematic-transport-background-with-slow-zoom-motion",
@@ -183,54 +185,206 @@
         "REQ-21"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-update-all-branding-from-root-x-global-to-zinmatt-global-throughout-the-application-including-page-title-meta-tags-headings-and-footer",
+      "title": "Update all branding from 'ROOT X GLOBAL' to 'ZINMATT GLOBAL' throughout the application including page title, meta tags, headings, and footer",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-company-tagline-to-elevating-brands-to-global-authority-in-footer-and-meta-description",
+      "title": "Update company tagline to 'Elevating Brands to Global Authority' in footer and meta description",
+      "reqIds": [
+        "REQ-23"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-hero-section-headline-to-we-build-global-digital-authority-and-subheadline-to-premium-digital-marketing-social-media-ads-business-development-solutions",
+      "title": "Update hero section headline to 'We Build Global Digital Authority' and subheadline to 'Premium Digital Marketing, Social Media Ads & Business Development Solutions.'",
+      "reqIds": [
+        "REQ-24"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-hero-section-cta-buttons-to-get-free-consultation-and-view-our-services",
+      "title": "Update hero section CTA buttons to 'Get Free Consultation' and 'View Our Services'",
+      "reqIds": [
+        "REQ-25"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-about-section-to-introduce-zinmatt-global-as-a-performance-driven-digital-growth-agency-with-focus-areas-digital-marketing-social-media-advertising-business-development-lead-generation-branding-strategy",
+      "title": "Update about section to introduce ZINMATT GLOBAL as a performance-driven digital growth agency with focus areas: Digital Marketing, Social Media Advertising, Business Development, Lead Generation, Branding Strategy",
+      "reqIds": [
+        "REQ-26"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-services-section-with-6-new-services-performance-marketing-facebook-instagram-ads-google-ads-management-high-converting-funnels-graphic-design-branding-international-business-growth-strategy-with-appropriate-icons",
+      "title": "Replace services section with 6 new services: 'Performance Marketing', 'Facebook & Instagram Ads', 'Google Ads Management', 'High-Converting Funnels', 'Graphic Design & Branding', 'International Business Growth Strategy' with appropriate icons",
+      "reqIds": [
+        "REQ-27"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-why-choose-us-section-to-display-4-points-roi-focused-strategy-data-driven-execution-premium-brand-positioning-international-market-expertise-with-check-marks-and-glowing-golden-borders",
+      "title": "Update 'Why Choose Us' section to display 4 points: 'ROI Focused Strategy', 'Data Driven Execution', 'Premium Brand Positioning', 'International Market Expertise' with check marks and glowing golden borders",
+      "reqIds": [
+        "REQ-28"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-problem-section-from-the-landing-page-as-it-is-not-part-of-zinmatt-global-s-structure",
+      "title": "Remove the Problem section from the landing page as it is not part of ZINMATT GLOBAL's structure",
+      "reqIds": [
+        "REQ-29"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-portfolio-section-with-sliding-gallery-layout-and-luxury-hover-effects",
+      "title": "Create portfolio section with sliding gallery layout and luxury hover effects",
+      "reqIds": [
+        "REQ-30"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-cta-section-with-gold-gradient-background-ready-to-scale-globally-text-and-book-strategy-call-button",
+      "title": "Update CTA section with gold gradient background, 'Ready To Scale Globally?' text, and 'Book Strategy Call' button",
+      "reqIds": [
+        "REQ-31"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-contact-section-headline-to-display-phone-7557831531-email-and-add-whatsapp-button-with-gold-highlight-on-minimal-black-background",
+      "title": "Update contact section headline to display phone 7557831531, email, and add WhatsApp button with gold highlight on minimal black background",
+      "reqIds": [
+        "REQ-32"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-power-statement-section-to-reflect-zinmatt-global-s-brand-message-while-maintaining-animated-gold-light-streaks-and-full-screen-black-background",
+      "title": "Update power statement section to reflect ZINMATT GLOBAL's brand message while maintaining animated gold light streaks and full-screen black background",
+      "reqIds": [
+        "REQ-33"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-animated-background-graphics-including-moving-abstract-lines-luxury-geometric-shapes-and-soft-particles-to-enhance-the-ultra-premium-feel-throughout-the-page",
+      "title": "Add animated background graphics including moving abstract lines, luxury geometric shapes, and soft particles to enhance the ultra-premium feel throughout the page",
+      "reqIds": [
+        "REQ-34"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-color-system-to-use-exact-palette-000000-black-0f0f0f-charcoal-and-metallic-gold-gradient-d4af37-to-ffd700-replacing-previous-0b0b0b-base",
+      "title": "Update color system to use exact palette: #000000 (black), #0f0f0f (charcoal), and metallic gold gradient (#D4AF37 to #FFD700) replacing previous #0B0B0B base",
+      "reqIds": [
+        "REQ-35"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-social-media-icons-in-gold-color-to-footer-facebook-linkedin-instagram",
+      "title": "Add social media icons in gold color to footer (Facebook, LinkedIn, Instagram)",
+      "reqIds": [
+        "REQ-36"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-generated-luxury-background-images-including-abstract-geometric-patterns-and-particle-effects-as-static-assets-from-frontend-public-assets-generated",
+      "title": "Render generated luxury background images including abstract geometric patterns and particle effects as static assets from frontend/public/assets/generated",
+      "reqIds": [
+        "REQ-37"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
     {
-      "id": "AR-7",
-      "summary": "Premium animations: smooth fade-in, slow zoom background, Apple-style slide transitions",
+      "id": "AR-15",
+      "summary": "Hero section with full-screen black background, gold animated graphics, headline 'We Build Global Digital Authority', subheadline about premium digital marketing solutions, dual CTAs: 'Get Free Consultation' and 'View Our Services' with motion animation",
       "reqIds": [],
       "status": "pending"
     },
     {
-      "id": "AR-8",
-      "summary": "Mobile responsive design with luxury visual impact maintained",
+      "id": "AR-16",
+      "summary": "About section with slide-style animation introducing ZINMATT GLOBAL as performance-driven digital growth agency focusing on Digital Marketing, Social Media Advertising, Business Development, Lead Generation, Branding Strategy",
       "reqIds": [],
       "status": "pending"
     },
     {
-      "id": "AR-9",
-      "summary": "Cinematic hero slide with 'Global Growth. Strategic Power. Market Domination.' headline, subheadline about elite marketing solutions, dual CTAs, dark world map background with animated golden routes",
+      "id": "AR-17",
+      "summary": "Services section with 6 slide-style cards: Performance Marketing, Facebook & Instagram Ads, Google Ads Management, High-Converting Funnels, Graphic Design & Branding, International Business Growth Strategy - each with gold outline hover effect",
       "reqIds": [],
       "status": "pending"
     },
     {
-      "id": "AR-10",
-      "summary": "The Problem slide showcasing 4 business pain points in luxury format: no consistent leads, weak online presence, poor branding, no structured sales system",
+      "id": "AR-18",
+      "summary": "Why Choose Us section with black background, glowing golden borders, 4 points: ROI Focused Strategy, Data Driven Execution, Premium Brand Positioning, International Market Expertise",
       "reqIds": [],
       "status": "pending"
     },
     {
-      "id": "AR-11",
-      "summary": "Our Elite Solutions slide with 6 animated gold-outline service cards: Website Development, Social Media Ads, Video Advertising, SEO/Branding, Business Strategy, Sales/Insurance Structuring",
+      "id": "AR-19",
+      "summary": "Portfolio section with sliding gallery layout and luxury hover effects",
       "reqIds": [],
       "status": "pending"
     },
     {
-      "id": "AR-12",
-      "summary": "Why ROOT X GLOBAL slide with 5 trust-building bullet points: Data-Driven Strategy, Performance Execution, Premium Support, Market Expertise, Result-Oriented",
+      "id": "AR-20",
+      "summary": "CTA section with gold gradient background, 'Ready To Scale Globally?' text, 'Book Strategy Call' button",
       "reqIds": [],
       "status": "pending"
     },
     {
-      "id": "AR-13",
-      "summary": "Power statement slide with full black background, large gold typography: 'We Don't Just Build Businesses. We Build Global Brands.' with animated gold light streak",
+      "id": "AR-21",
+      "summary": "Contact section with minimal black background, phone 7557831531, email, WhatsApp button with gold highlight",
       "reqIds": [],
       "status": "pending"
     },
     {
-      "id": "AR-14",
-      "summary": "Exclusive contact slide with 'Let's Build Your Global Success Story' headline, phone/email in luxury gold bordered box, CTA button 'Book Private Strategy Call'",
+      "id": "AR-22",
+      "summary": "Footer with black background, thin gold top border, gold social icons, copyright © 2026 ZINMATT GLOBAL. All Rights Reserved.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-23",
+      "summary": "Black and charcoal design system with metallic gold gradient (#D4AF37 to #FFD700), glassmorphism effects, golden glow highlights, animated background graphics (abstract lines, geometric shapes, particles)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-24",
+      "summary": "Modern luxury typography with bold sans-serif headings and clean light body font",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-25",
+      "summary": "Smooth scroll animations and slide transitions for every section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-26",
+      "summary": "Fully responsive mobile-optimized design with fast loading and international luxury corporate feel",
       "reqIds": [],
       "status": "pending"
     }

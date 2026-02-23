@@ -1,230 +1,315 @@
 {
   "kind": "build_request",
-  "title": "Restructure landing page with slide-style navigation and expanded services showcase",
-  "projectName": "ROOT X GLOBAL",
-  "priority": "high",
+  "title": "Transform ROOT X GLOBAL to ZINMATT GLOBAL ultra-luxury digital agency website",
+  "projectName": "ZINMATT GLOBAL",
+  "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-13",
-      "text": "Update hero section headline to 'Global Growth. Strategic Power. Market Domination.' and subheadline to 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.' Replace existing CTA button text with 'Schedule Executive Consultation' and 'Start Your Growth Journey'",
+      "id": "REQ-22",
+      "text": "Update all branding from 'ROOT X GLOBAL' to 'ZINMATT GLOBAL' throughout the application including page title, meta tags, headings, and footer",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-latest"
         ],
         "quotes": [
-          "Headline: \"Global Growth. Strategic Power. Market Domination.\"",
-          "Subheadline: \"ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.\"",
-          "CTA Buttons: \"Schedule Executive Consultation\" \"Start Your Growth Journey\""
+          "Company Name: ZINMATT GLOBAL"
         ]
       },
       "acceptanceCriteria": [
-        "Hero headline displays 'Global Growth. Strategic Power. Market Domination.'",
-        "Hero subheadline displays 'ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.'",
-        "First CTA button shows 'Schedule Executive Consultation'",
-        "Second CTA button shows 'Start Your Growth Journey'",
-        "Both buttons maintain luxury gold glow effects"
+        "HTML title shows 'ZINMATT GLOBAL'",
+        "All instances of 'ROOT X GLOBAL' are replaced with 'ZINMATT GLOBAL'",
+        "Footer displays '© 2026 ZINMATT GLOBAL. All Rights Reserved.'"
       ]
     },
     {
-      "id": "REQ-14",
-      "text": "Create new 'The Problem' slide section that displays 4 business pain points in bold luxury format: 'No consistent leads', 'Weak online presence', 'Poor branding visibility', 'No structured sales system'. Use minimal text with strong visual impact, gold accent markers, and glassmorphism card styling",
+      "id": "REQ-23",
+      "text": "Update company tagline to 'Elevating Brands to Global Authority' in footer and meta description",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-latest"
         ],
         "quotes": [
-          "SLIDE 2 – The Problem",
-          "Show business pain points in bold luxury format: - No consistent leads - Weak online presence - Poor branding visibility - No structured sales system",
-          "Minimal text, strong impact."
+          "Tagline: Elevating Brands to Global Authority"
         ]
       },
       "acceptanceCriteria": [
-        "New ProblemSection component created and inserted after HeroSection",
-        "Section displays exactly 4 pain points with provided text",
-        "Uses glassmorphism card styling with gold borders",
-        "Text is minimal and impactful with large typography",
-        "Pain points have visual markers (icons or gold bullets)",
-        "Section appears with smooth slide transition animation"
+        "Tagline appears in footer below company name",
+        "Meta description includes the tagline"
       ]
     },
     {
-      "id": "REQ-15",
-      "text": "Update services section title to 'Our Elite Solutions' and replace the 6 existing service cards with new services: 'Premium Website Development', 'High-Converting Social Media Ads', 'Cinematic Video Advertising', 'SEO & Brand Authority Building', 'Business Development Strategy', 'Sales Team & Insurance Advisory Structuring'. Maintain animated gold-outline cards with one-by-one appearance and soft gold glow effect",
+      "id": "REQ-24",
+      "text": "Update hero section headline to 'We Build Global Digital Authority' and subheadline to 'Premium Digital Marketing, Social Media Ads & Business Development Solutions.'",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-latest"
         ],
         "quotes": [
-          "SLIDE 3 – Our Elite Solutions",
-          "• Premium Website Development • High-Converting Social Media Ads • Cinematic Video Advertising • SEO & Brand Authority Building • Business Development Strategy • Sales Team & Insurance Advisory Structuring",
-          "Each card appears one-by-one with soft gold glow effect."
+          "Headline: \"We Build Global Digital Authority\"",
+          "Subheadline: Premium Digital Marketing, Social Media Ads & Business Development Solutions."
         ]
       },
       "acceptanceCriteria": [
-        "Services section headline changed to 'Our Elite Solutions'",
-        "All 6 service cards updated with new titles exactly as specified",
-        "Cards maintain gold outline and hover glow animation",
-        "Cards appear sequentially with staggered animation delays",
-        "Icons updated to match new service categories appropriately",
-        "Layout remains responsive and maintains luxury aesthetic"
+        "Hero headline displays 'We Build Global Digital Authority'",
+        "Hero subheadline displays exact text about digital marketing and business development",
+        "Existing motion animation effects are preserved"
       ]
     },
     {
-      "id": "REQ-16",
-      "text": "Update 'The Difference' section headline to 'Why Global Brands Trust Us' and replace existing bullet points with: 'Data-Driven Growth Strategy', 'Performance-Focused Execution', 'Premium Client Support', 'Local & Global Market Expertise', 'Result-Oriented Approach'. Maintain spacious and powerful layout",
+      "id": "REQ-25",
+      "text": "Update hero section CTA buttons to 'Get Free Consultation' and 'View Our Services'",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-latest"
         ],
         "quotes": [
-          "SLIDE 4 – Why ROOT X GLOBAL",
-          "Headline: \"Why Global Brands Trust Us\"",
-          "Bullet Points: - Data-Driven Growth Strategy - Performance-Focused Execution - Premium Client Support - Local & Global Market Expertise - Result-Oriented Approach",
-          "Keep layout spacious and powerful."
+          "Add two buttons: [Get Free Consultation] [View Our Services]"
         ]
       },
       "acceptanceCriteria": [
-        "Section headline updated to 'Why Global Brands Trust Us'",
-        "All 5 bullet points replaced with exact text provided",
-        "Maintains existing gold check icons and animation effects",
-        "Layout remains spacious with strong visual hierarchy",
-        "Staggered entrance animations preserved"
+        "First button displays 'Get Free Consultation'",
+        "Second button displays 'View Our Services'",
+        "Buttons retain luxury gold glow effects and existing styling"
       ]
     },
     {
-      "id": "REQ-17",
-      "text": "Update power statement section typography to display three separate lines: 'We Don't Just Build Businesses.', 'We Build Global Brands.' Add subtle animated gold light streak effect that moves across the screen horizontally",
+      "id": "REQ-26",
+      "text": "Update about section to introduce ZINMATT GLOBAL as a performance-driven digital growth agency with focus areas: Digital Marketing, Social Media Advertising, Business Development, Lead Generation, Branding Strategy",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-latest"
         ],
         "quotes": [
-          "SLIDE 5 – Power Statement",
-          "Large gold typography: \"We Don't Just Build Businesses. We Build Global Brands.\"",
-          "Subtle animated gold light streak across screen."
+          "Introduce ZINMATT GLOBAL as a performance-driven digital growth agency",
+          "Focus on: - Digital Marketing - Social Media Advertising - Business Development - Lead Generation - Branding Strategy"
         ]
       },
       "acceptanceCriteria": [
-        "Power statement text updated to 'We Don't Just Build Businesses.' and 'We Build Global Brands.' as two separate lines",
-        "Animated gold light streak element added that moves horizontally across the section",
-        "Light streak animation is subtle and continuous",
-        "Text maintains large gold gradient typography",
-        "Full black cinematic background preserved"
+        "About section describes ZINMATT GLOBAL as performance-driven digital growth agency",
+        "All five focus areas are clearly presented",
+        "Slide-style animation is maintained"
       ]
     },
     {
-      "id": "REQ-18",
-      "text": "Update contact section headline to 'Let's Build Your Global Success Story' and change CTA button text to 'Book Private Strategy Call'. Maintain phone number 7557831531 and email www.rootxglobal@gmail.com in luxury gold bordered contact box with glowing effects",
+      "id": "REQ-27",
+      "text": "Replace services section with 6 new services: 'Performance Marketing', 'Facebook & Instagram Ads', 'Google Ads Management', 'High-Converting Funnels', 'Graphic Design & Branding', 'International Business Growth Strategy' with appropriate icons",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-latest"
         ],
         "quotes": [
-          "SLIDE 6 – Exclusive Contact Slide",
-          "Headline: \"Let's Build Your Global Success Story\"",
-          "Phone: 7557831531",
-          "Email: www.rootxglobal@gmail.com",
-          "CTA Button: \"Book Private Strategy Call\""
+          "Services Section (Each service appears as slide cards): - Performance Marketing - Facebook & Instagram Ads - Google Ads Management - High-Converting Funnels - Graphic Design & Branding - International Business Growth Strategy"
         ]
       },
       "acceptanceCriteria": [
-        "Contact section headline updated to 'Let's Build Your Global Success Story'",
-        "CTA button text changed to 'Book Private Strategy Call'",
-        "Phone number 7557831531 displayed correctly with clickable tel: link",
-        "Email www.rootxglobal@gmail.com displayed with clickable mailto: link",
-        "Gold bordered contact box and glowing effects maintained"
+        "All 6 new services are displayed in service cards",
+        "Each service has relevant icon from lucide-react",
+        "Gold outline hover effects are preserved",
+        "Slide-style card animations are maintained"
       ]
     },
     {
-      "id": "REQ-19",
-      "text": "Update about section brand positioning statement to: 'ROOT X GLOBAL is an elite global growth and expansion partner delivering premium marketing, business development, and strategic sales solutions.' Adjust tone to reflect expanded service portfolio beyond logistics",
+      "id": "REQ-28",
+      "text": "Update 'Why Choose Us' section to display 4 points: 'ROI Focused Strategy', 'Data Driven Execution', 'Premium Brand Positioning', 'International Market Expertise' with check marks and glowing golden borders",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-latest"
         ],
         "quotes": [
-          "Business Type: Sales, Marketing & Business Development Agency.",
-          "Services include: - Website Design & Development - Facebook & Social Media Advertising - Video Ads Production - SEO & Branding - Business Development Strategy - Sales Team Structuring - Insurance Advisory (General & Life)",
-          "Brand Positioning: Elite Global Growth & Expansion Partner."
+          "Show: ✔ ROI Focused Strategy ✔ Data Driven Execution ✔ Premium Brand Positioning ✔ International Market Expertise"
         ]
       },
       "acceptanceCriteria": [
-        "About section text updated to reflect marketing and business development focus",
-        "Statement mentions premium marketing, business development, and strategic sales solutions",
-        "Maintains authoritative and exclusive tone",
-        "Glassmorphism card styling and fade-in animation preserved"
+        "Section displays exactly 4 points with check icons",
+        "Black background with glowing golden borders is maintained",
+        "All bullet points use the specified text exactly"
       ]
     },
     {
-      "id": "REQ-20",
-      "text": "Update primary matte black color from #0A0A0A to #0B0B0B throughout the design system to match the specified color code",
+      "id": "REQ-29",
+      "text": "Remove the Problem section from the landing page as it is not part of ZINMATT GLOBAL's structure",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
-        ],
-        "quotes": [
-          "Primary Color: Matte Black (#0B0B0B)"
+          "msg-latest"
         ]
       },
       "acceptanceCriteria": [
-        "Background color updated to #0B0B0B in index.css and tailwind.config.js",
-        "All references to #0A0A0A replaced with #0B0B0B",
-        "Visual appearance maintains deep matte black luxury aesthetic"
+        "Problem section is no longer rendered in App.tsx",
+        "Page flow transitions smoothly from Hero to About/Services"
       ]
     },
     {
-      "id": "REQ-21",
-      "text": "Implement slide-style section transitions where each major section appears like a premium presentation slide with smooth entrance effects, ensuring each section feels like a distinct slide in a keynote presentation",
+      "id": "REQ-30",
+      "text": "Create portfolio section with sliding gallery layout and luxury hover effects",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-5"
+          "msg-latest"
         ],
         "quotes": [
-          "Each section must appear like a premium presentation slide.",
-          "Use smooth slide transitions.",
-          "Animation: Each section must appear like a premium presentation slide."
+          "Portfolio Section: Use sliding gallery layout with luxury hover effects."
         ]
       },
       "acceptanceCriteria": [
-        "Each major section (Hero, Problem, Services, Difference, Power Statement, Contact) has distinct slide-like visual treatment",
-        "Sections transition smoothly when scrolling with slide-in effects",
-        "Spacing between sections creates clear slide boundaries",
-        "Animation timing feels polished like a keynote presentation",
-        "Mobile responsive behavior maintains slide-style transitions"
+        "Portfolio section displays between Services and CTA sections",
+        "Implements horizontal sliding gallery layout",
+        "Portfolio items have gold hover glow effects",
+        "Maintains glassmorphism and luxury styling theme"
+      ]
+    },
+    {
+      "id": "REQ-31",
+      "text": "Update CTA section with gold gradient background, 'Ready To Scale Globally?' text, and 'Book Strategy Call' button",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Call To Action Section: Gold gradient background strip. Text: \"Ready To Scale Globally?\" Button: Book Strategy Call"
+        ]
+      },
+      "acceptanceCriteria": [
+        "CTA section has gold gradient background (#D4AF37 to #FFD700)",
+        "Displays 'Ready To Scale Globally?' as headline",
+        "Button text is 'Book Strategy Call'",
+        "Button has luxury styling with hover effects"
+      ]
+    },
+    {
+      "id": "REQ-32",
+      "text": "Update contact section headline to display phone 7557831531, email, and add WhatsApp button with gold highlight on minimal black background",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Contact Section: Minimal black background. Mobile: 7557831531 Email: (Same as Root Service except changed if needed) Add WhatsApp button with gold highlight."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact section displays phone number 7557831531 as clickable link",
+        "Email is displayed (zinmattglobal@gmail.com inferred from pattern)",
+        "WhatsApp button is added with gold glow highlight effect",
+        "Section maintains minimal black background design"
+      ]
+    },
+    {
+      "id": "REQ-33",
+      "text": "Update power statement section to reflect ZINMATT GLOBAL's brand message while maintaining animated gold light streaks and full-screen black background",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Power statement reflects digital agency positioning",
+        "Animated gold light streaks are preserved",
+        "Full-screen black background is maintained",
+        "Typography uses large gold gradient text"
+      ]
+    },
+    {
+      "id": "REQ-34",
+      "text": "Add animated background graphics including moving abstract lines, luxury geometric shapes, and soft particles to enhance the ultra-premium feel throughout the page",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Add animated graphic design elements in the background (moving abstract lines, luxury geometric shapes, soft particles)."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Background contains animated abstract line elements",
+        "Geometric shapes animate subtly in the background",
+        "Particle effects are visible but not distracting",
+        "Animations run smoothly without performance issues"
+      ]
+    },
+    {
+      "id": "REQ-35",
+      "text": "Update color system to use exact palette: #000000 (black), #0f0f0f (charcoal), and metallic gold gradient (#D4AF37 to #FFD700) replacing previous #0B0B0B base",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Color palette: #000000 (black), #0f0f0f (charcoal), metallic gold gradient (#D4AF37 to #FFD700)."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Primary black is #000000 throughout",
+        "Charcoal accent is #0f0f0f",
+        "Gold gradients use #D4AF37 to #FFD700 range",
+        "All CSS variables and Tailwind config are updated"
+      ]
+    },
+    {
+      "id": "REQ-36",
+      "text": "Add social media icons in gold color to footer (Facebook, LinkedIn, Instagram)",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ],
+        "quotes": [
+          "Add social icons in gold."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer contains gold-colored social media icons",
+        "Icons are clickable and link to social profiles",
+        "Icons have hover glow effects matching the luxury theme"
+      ]
+    },
+    {
+      "id": "REQ-37",
+      "text": "Render generated luxury background images including abstract geometric patterns and particle effects as static assets from frontend/public/assets/generated",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-latest"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Background images are loaded from frontend/public/assets/generated directory",
+        "Images are displayed as static assets without backend routing",
+        "Images enhance the luxury aesthetic across sections"
       ]
     }
   ],
   "constraints": [
-    "Do not modify frontend/src/hooks/useInternetIdentity.ts",
-    "Do not modify frontend/src/hooks/useActor.ts",
-    "Do not modify frontend/src/main.tsx",
-    "Do not modify frontend/src/components/ui components",
     "Maintain single-actor Motoko backend architecture",
-    "Preserve luxury black and gold design system",
-    "Keep all existing animation effects and glassmorphism styling",
-    "Maintain mobile responsiveness across all changes"
+    "Do not modify frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, or frontend/src/components/ui directory",
+    "Preserve glassmorphism effects and slide-style section transitions",
+    "Keep all animations smooth and performant",
+    "Maintain fully responsive mobile-optimized design"
   ],
   "nonGoals": [
-    "Adding backend functionality or data persistence",
-    "Implementing contact form submission logic",
-    "Adding real-time chat or communication features",
-    "Integrating third-party calendar or booking systems",
-    "Adding user authentication or login features",
-    "Creating admin dashboard or content management",
-    "Implementing analytics tracking beyond basic meta tags"
+    "Video generation or promotional video creation",
+    "Backend data models or persistence (no backend changes needed)",
+    "Integration with external marketing platforms or CRM systems",
+    "Multi-language support beyond English",
+    "User authentication or login functionality"
   ],
   "imageRequirements": {
     "required": [
-      "Dark cinematic world map with animated golden connection routes showing international trade paths and transport graphics including cargo ship outlines, airplane path lines, and container silhouettes for hero section background (world-map-routes.dim_1920x1080.png)"
+      "Luxury abstract geometric pattern background with gold lines and shapes on black background (luxury-geometric-bg.dim_1920x1080.png)",
+      "Animated particle effect overlay with soft golden particles on transparent background (gold-particles-overlay.dim_1920x1080.png)",
+      "Moving abstract lines pattern with luxury gold gradients for background animation (abstract-gold-lines.dim_1920x1080.png)"
     ],
     "edits": []
   }

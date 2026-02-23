@@ -49,13 +49,13 @@ export default {
                     DEFAULT: 'oklch(var(--card))',
                     foreground: 'oklch(var(--card-foreground))'
                 },
-                'luxury-black': '#0B0B0B',
+                'luxury-black': '#000000',
+                'charcoal': '#0f0f0f',
                 'gold': {
                     DEFAULT: '#D4AF37',
-                    light: '#F4E4B0',
+                    light: '#FFD700',
                     dark: '#B8941F',
                 },
-                'navy-dark': '#0F1729',
             },
             fontFamily: {
                 serif: ['Playfair Display', 'Georgia', 'serif'],

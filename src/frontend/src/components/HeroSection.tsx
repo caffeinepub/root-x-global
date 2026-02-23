@@ -7,10 +7,8 @@ export default function HeroSection() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   
   const images = [
-    '/assets/generated/world-map-routes.dim_1920x1080.png',
-    '/assets/generated/hero-cargo-ship.dim_1920x1080.png',
-    '/assets/generated/trade-routes-bg.dim_1920x1080.png',
-    '/assets/generated/container-terminal.dim_1920x1080.png',
+    '/assets/generated/luxury-geometric-bg.dim_1920x1080.png',
+    '/assets/generated/abstract-gold-lines.dim_1920x1080.png',
   ];
 
   useEffect(() => {
@@ -25,8 +23,9 @@ export default function HeroSection() {
     contactSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
-  const handleStartJourney = () => {
-    window.location.href = 'tel:7557831531';
+  const handleViewServices = () => {
+    const servicesSection = document.querySelector('.slide-container:nth-child(3)');
+    servicesSection?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -43,10 +42,10 @@ export default function HeroSection() {
               index === currentImageIndex ? 'opacity-100' : 'opacity-0'
             }`}
           >
-            <div className="absolute inset-0 bg-luxury-black/60 z-10" />
+            <div className="absolute inset-0 bg-luxury-black/70 z-10" />
             <img
               src={img}
-              alt="Global Routes"
+              alt="Luxury Background"
               className="w-full h-full object-cover animate-slow-zoom"
             />
           </div>
@@ -60,13 +59,13 @@ export default function HeroSection() {
         }`}
       >
         <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-6 md:mb-8 leading-tight tracking-tight">
-          Global Growth. Strategic Power.
+          We Build Global
           <br />
-          <span className="text-gold-gradient">Market Domination.</span>
+          <span className="text-gold-gradient">Digital Authority</span>
         </h1>
         
         <p className="font-sans text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gold-light mb-12 md:mb-16 tracking-wide font-light">
-          ROOT X GLOBAL Delivers Elite Marketing & Business Expansion Solutions.
+          Premium Digital Marketing, Social Media Ads & Business Development Solutions.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -74,13 +73,13 @@ export default function HeroSection() {
             onClick={handleConsultation}
             className="luxury-button-primary text-base md:text-lg px-8 md:px-12 py-6 md:py-8 rounded-none font-sans font-semibold tracking-wider"
           >
-            Schedule Executive Consultation
+            Get Free Consultation
           </Button>
           <Button
-            onClick={handleStartJourney}
+            onClick={handleViewServices}
             className="luxury-button-secondary text-base md:text-lg px-8 md:px-12 py-6 md:py-8 rounded-none font-sans font-semibold tracking-wider"
           >
-            Start Your Growth Journey
+            View Our Services
           </Button>
         </div>
       </div>
